@@ -13,11 +13,16 @@ package microarray;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.DefaultListModel;
 import javax.swing.JFileChooser;
 import javax.swing.JList;
@@ -31,56 +36,63 @@ import javax.swing.table.DefaultTableModel;
  */
 public class MicroArrayUI extends javax.swing.JFrame {
 
+    private MicroArray ma_current;
+
     class FooTableModel extends DefaultTableModel {
+
         public FooTableModel(Object[][] rowData, Object[] headers) {
             super(rowData, headers);
         }
- 
+
         public void sortByColumn(final int clm) {
-            Collections.sort(this.dataVector, new Comparator() {
+            Collections.sort(this.dataVector, new Comparator()       {
+
                 public int compare(Object o1, Object o2) {
                     Vector v1 = (Vector) o1;
                     Vector v2 = (Vector) o2;
- 
+
                     int size1 = v1.size();
-                    if (clm >= size1)
+                    if (clm >= size1) {
                         throw new IllegalArgumentException("max column idx: "
                                 + size1);
- 
+                    }
+
                     String s1 = String.valueOf(v1.get(clm));
                     String s2 = String.valueOf(v2.get(clm));
- 
+
                     return s1.compareTo(s2);
                 }
             });
         }
     }
-    
+
     /** Creates new form MicroArrayUI */
     public MicroArrayUI() {
         initComponents();
-        
-        jTable1.getTableHeader().addMouseListener(new MouseAdapter() {
+
+        jTable1.getTableHeader().addMouseListener(new MouseAdapter()       {
+
             public void mousePressed(MouseEvent evt) {
-                ((FooTableModel)jTable1.getModel()).sortByColumn(jTable1.columnAtPoint(evt.getPoint()));
+                ((FooTableModel) jTable1.getModel()).sortByColumn(jTable1.columnAtPoint(evt.getPoint()));
             }
         });
-        
-        this.jList1.addListSelectionListener(new ListSelectionListener()   {
+
+        this.jList1.addListSelectionListener(new ListSelectionListener()         {
 
             public void valueChanged(ListSelectionEvent e) {
                 if (!e.getValueIsAdjusting()) {
                     JList list = JList.class.cast(e.getSource());
                     File f = fileMap.get(String.class.cast(list.getSelectedValue()));
                     MicroArray ma = new MicroArray(f);
+                    ma_current = ma;
                     jTable1.setModel(new FooTableModel(
                             ma.toObjectArray(),
                             new String[]{
-                                "Gene name", "Coef mean", "Coef sd", "A mean", "A sd", "Function"
-                            })  {
+                                "Gene name", "Coef mean", "Coef sd", "A mean", "A sd", "# spots", "Function"
+                            })        {
 
                         Class[] types = new Class[]{
-                            java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class
+                            java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class
                         };
                         boolean[] canEdit = new boolean[]{
                             false, false, false, false, false, false
@@ -113,6 +125,7 @@ public class MicroArrayUI extends javax.swing.JFrame {
         jList1 = new javax.swing.JList();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -135,7 +148,7 @@ public class MicroArrayUI extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Gene name", "Coef mean", "Coef sd", "A mean", "A sd", "\"Function\""
+                "Gene name", "Coef mean", "Coef sd", "A mean", "A sd", "Function"
             }
         ) {
             Class[] types = new Class [] {
@@ -156,17 +169,20 @@ public class MicroArrayUI extends javax.swing.JFrame {
         jTable1.setColumnSelectionAllowed(true);
         jScrollPane2.setViewportView(jTable1);
         jTable1.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_INTERVAL_SELECTION);
-        jTable1.getColumnModel().getColumn(0).setResizable(false);
         jTable1.getColumnModel().getColumn(0).setPreferredWidth(50);
-        jTable1.getColumnModel().getColumn(1).setResizable(false);
         jTable1.getColumnModel().getColumn(1).setPreferredWidth(50);
-        jTable1.getColumnModel().getColumn(2).setResizable(false);
         jTable1.getColumnModel().getColumn(2).setPreferredWidth(50);
-        jTable1.getColumnModel().getColumn(3).setResizable(false);
         jTable1.getColumnModel().getColumn(3).setPreferredWidth(50);
         jTable1.getColumnModel().getColumn(4).setResizable(false);
         jTable1.getColumnModel().getColumn(4).setPreferredWidth(50);
         jTable1.getColumnModel().getColumn(5).setPreferredWidth(300);
+
+        jButton2.setText("Export selection");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -174,11 +190,12 @@ public class MicroArrayUI extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1, 0, 0, Short.MAX_VALUE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 129, Short.MAX_VALUE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 129, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 899, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 881, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -186,11 +203,13 @@ public class MicroArrayUI extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 278, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 281, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                         .addComponent(jButton1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE)))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 223, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton2)))
                 .addContainerGap())
         );
 
@@ -214,11 +233,44 @@ public class MicroArrayUI extends javax.swing.JFrame {
     private void jList1ValueChanged(javax.swing.event.ListSelectionEvent evt) {//GEN-FIRST:event_jList1ValueChanged
     }//GEN-LAST:event_jList1ValueChanged
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        JFileChooser jfc = new JFileChooser();
+        jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+        if (jfc.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+            FileWriter outFile = null;
+            try {
+                outFile = new FileWriter(jfc.getSelectedFile());
+                PrintWriter out = new PrintWriter(outFile);
+                for (Object[] o : ma_current.toObjectArray()) {
+                    StringBuilder sb = new StringBuilder();
+                    for (Object p : o) {
+                        if (p != null) {
+                            sb.append(p.toString());
+                        }
+                        sb.append("\t");
+                    }
+                    sb.setCharAt(sb.length() - 1, '\\');
+                    sb.append("\\");
+                    out.println(sb.toString());
+                }
+            } catch (IOException ex) {
+                Logger.getLogger(MicroArrayUI.class.getName()).log(Level.SEVERE, null, ex);
+            } finally {
+                try {
+                    outFile.close();
+                } catch (IOException ex) {
+                    Logger.getLogger(MicroArrayUI.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        }
+
+    }//GEN-LAST:event_jButton2ActionPerformed
+
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable()       {
+        java.awt.EventQueue.invokeLater(new Runnable()             {
 
             public void run() {
                 new MicroArrayUI().setVisible(true);
@@ -228,6 +280,7 @@ public class MicroArrayUI extends javax.swing.JFrame {
     private Map<String, File> fileMap = new HashMap<String, File>();
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JList jList1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;

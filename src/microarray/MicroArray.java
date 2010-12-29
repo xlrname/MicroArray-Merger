@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import sort.SortManager;
 
 /**
  *
@@ -68,12 +69,15 @@ public class MicroArray {
                 r++;
             }
         }
-        Object[][] o = new Object[r][6];
+        Object[][] o = new Object[r][7];
         int i = 0;
         for (List<Entry> le : this.entryMap.values()) {
             int s = le.size();
             if (s >= 2) {
                 o[i][0] = le.get(0).getGname();
+                if (le.get(0).getGname().equals("cg1109")) {
+                    System.out.println("a");
+                }
                 double coefSum = 0;
                 double aSum = 0;
                 for (Entry e : le) {
@@ -94,10 +98,13 @@ public class MicroArray {
                     aSD += Math.pow((e.getA() - aMean), 2);
                 }
                 o[i][4] = aSD;
-                o[i][5] = CGAnnotation.getInstance().getDef(o[i][0].toString());
+                o[i][5] = le.size();
+                o[i][6] = CGAnnotation.getInstance().getDef(o[i][0].toString());
                 i++;
             }
         }
+        
+//        SortManager.sort(twodime, column, order)
         return o;
     }
 }
