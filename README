@@ -1,10 +1,11 @@
+
 Simple Micro Array Processer.
 
 A bioinformatics tool with two aims:
  (1) merge technical replicates after an limma (R) analysis
  (2) merge ratio of medians from gpr files as a preprocessing step for gene clustering
 
- * Copyright 2010 Armin Töpfer (xlrname@gmail.com),
+ * Copyright 2010 Armin Toepfer (xlrname@gmail.com),
  * All rights reserved.
  *
  * The contents of this file are subject to the terms of the Common
