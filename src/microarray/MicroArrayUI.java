@@ -12,13 +12,19 @@ package microarray;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.BufferedReader;
+import java.io.DataInputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 import java.util.logging.Level;
@@ -45,7 +51,7 @@ public class MicroArrayUI extends javax.swing.JFrame {
         }
 
         public void sortByColumn(final int clm) {
-            Collections.sort(this.dataVector, new Comparator()       {
+            Collections.sort(this.dataVector, new Comparator() {
 
                 public int compare(Object o1, Object o2) {
                     Vector v1 = (Vector) o1;
@@ -69,15 +75,17 @@ public class MicroArrayUI extends javax.swing.JFrame {
     /** Creates new form MicroArrayUI */
     public MicroArrayUI() {
         initComponents();
+        this.setTitle("Simple Micro Arrays Processing");
+        clustertable.setUI(new DragDropRowTableUI());
 
-        jTable1.getTableHeader().addMouseListener(new MouseAdapter()       {
+        jTable1.getTableHeader().addMouseListener(new MouseAdapter() {
 
             public void mousePressed(MouseEvent evt) {
                 ((FooTableModel) jTable1.getModel()).sortByColumn(jTable1.columnAtPoint(evt.getPoint()));
             }
         });
 
-        this.jList1.addListSelectionListener(new ListSelectionListener()         {
+        this.jList1.addListSelectionListener(new ListSelectionListener() {
 
             public void valueChanged(ListSelectionEvent e) {
                 if (!e.getValueIsAdjusting()) {
@@ -89,7 +97,7 @@ public class MicroArrayUI extends javax.swing.JFrame {
                             ma.toObjectArray(),
                             new String[]{
                                 "Gene name", "Coef mean", "Coef sd", "A mean", "A sd", "# spots", "Function"
-                            })        {
+                            }) {
 
                         Class[] types = new Class[]{
                             java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class
@@ -120,12 +128,20 @@ public class MicroArrayUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        jPanel1 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jList1 = new javax.swing.JList();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jButton2 = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
+        jButton3 = new javax.swing.JButton();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        clustertable = new javax.swing.JTable();
+        exporter = new javax.swing.JButton();
+        ss = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -184,33 +200,125 @@ public class MicroArrayUI extends javax.swing.JFrame {
             }
         });
 
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane1, 0, 0, Short.MAX_VALUE)
+                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 161, Short.MAX_VALUE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 161, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 846, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jButton1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 206, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton2)))
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("After limma", jPanel1);
+
+        jButton3.setText("Load files");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        clustertable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "File name", "Experiment", "CSW"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.Boolean.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, true, true
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        clustertable.setEnabled(false);
+        jScrollPane3.setViewportView(clustertable);
+
+        exporter.setText("Export");
+        exporter.setEnabled(false);
+        exporter.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                exporterActionPerformed(evt);
+            }
+        });
+
+        ss.setText("Save schema");
+        ss.setEnabled(false);
+        ss.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ssActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 1013, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(jButton3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(ss)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 641, Short.MAX_VALUE)
+                        .addComponent(exporter, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 224, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton3)
+                    .addComponent(ss)
+                    .addComponent(exporter))
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("Before clustering", jPanel2);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, 0, 0, Short.MAX_VALUE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 129, Short.MAX_VALUE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 129, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 881, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1038, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 281, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addComponent(jButton1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 223, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton2)))
-                .addContainerGap())
+            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
         );
 
         pack();
@@ -265,12 +373,162 @@ public class MicroArrayUI extends javax.swing.JFrame {
         }
 
     }//GEN-LAST:event_jButton2ActionPerformed
+    private Map<String, File> clusterMap = new HashMap<String, File>();
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        JFileChooser chooser = new JFileChooser();
+        chooser.setMultiSelectionEnabled(true);
+        if (chooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
+            clusterMap.clear();
+            for (File f : chooser.getSelectedFiles()) {
+                clusterMap.put(f.getName(), f);
+            }
+        }
+        List<Object[]> tableContent = new LinkedList<Object[]>();
+//        Object[][] tableContent = new Object[clusterMap.size()][3];
+        for (String s : clusterMap.keySet()) {
+            //check content if schema
+            boolean schema = false;
+            try {
+                FileInputStream fstream = new FileInputStream(this.clusterMap.get(s));
+                DataInputStream in = new DataInputStream(fstream);
+                BufferedReader br = new BufferedReader(new InputStreamReader(in));
+                String strLine;
+                boolean firstline = true;
+                while ((strLine = br.readLine()) != null) {
+                    if (firstline) {
+                        schema = strLine.equals("clusterfile");
+                        firstline ^= true;
+                        continue;
+                    }
+                    if (!schema) {
+                        break;
+                    }
+                    String[] split = strLine.split(";");
+                    
+                    
+                    Object[] tc = new Object[3];
+                    tc[0] = split[0];
+                    tc[1] = split[1];
+                    tc[2] = Boolean.parseBoolean(split[2]);
+                    tableContent.add(tc);
+                    this.clusterMap.put(split[0], new File(split[3]));
+                }
+                in.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            if (!schema) {
+                Object[] tc = new Object[3];
+                tc[0] = s;
+                tc[1] = s;
+                tc[2] = s.contains("CSW") || s.contains("csw");
+                tableContent.add(tc);
+            }
+        }
+        Object[][] tableContent_array = new Object[tableContent.size()][3];
+        for (int i = 0; i < tableContent.size(); i++) {
+            tableContent_array[i] = tableContent.get(i);
+        }
+        clustertable.setModel(new FooTableModel(
+                tableContent_array,
+                new String[]{
+                    "File name", "Experiment", "CSW"
+                }) {
+
+            Class[] types = new Class[]{
+                java.lang.String.class, java.lang.String.class, java.lang.Boolean.class
+            };
+            boolean[] canEdit = new boolean[]{
+                false, true, true
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types[columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit[columnIndex];
+            }
+        });
+        ss.setEnabled(true);
+        exporter.setEnabled(true);
+        clustertable.setEnabled(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
+    
+    private Map<String, List<File>> clusterDataMap = new HashMap<String, List<File>>();
+    private void exporterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exporterActionPerformed
+        this.clusterDataMap.clear();
+        List<String> experiments = new LinkedList<String>();
+        Map<String, Boolean> filenameToCSW = new HashMap<String, Boolean>();
+        for (int i = 0; i < this.clustertable.getModel().getRowCount(); i++) {
+            String experiment = (String) this.clustertable.getModel().getValueAt(i, 1);
+            if (!this.clusterDataMap.containsKey(experiment)) {
+                this.clusterDataMap.put(experiment, new LinkedList<File>());
+            }
+            List<File> l = this.clusterDataMap.get(experiment);
+            l.add(this.clusterMap.get(this.clustertable.getModel().getValueAt(i, 0)));
+            Boolean csw = (Boolean) this.clustertable.getModel().getValueAt(i, 2);
+            filenameToCSW.put((String) this.clustertable.getModel().getValueAt(i, 0), csw);
+            if (!experiments.contains(experiment)) {
+                experiments.add(experiment);
+            }
+        }
+
+        JFileChooser jfc = new JFileChooser();
+        jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+        if (jfc.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+            FileWriter outFile = null;
+            try {
+                outFile = new FileWriter(jfc.getSelectedFile());
+                PrintWriter out = new PrintWriter(outFile);
+                out.write(new Clusterer(clusterDataMap, experiments, filenameToCSW).getClusters());
+            } catch (IOException ex) {
+                Logger.getLogger(MicroArrayUI.class.getName()).log(Level.SEVERE, null, ex);
+            } finally {
+                try {
+                    outFile.close();
+                } catch (IOException ex) {
+                    Logger.getLogger(MicroArrayUI.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        }
+    }//GEN-LAST:event_exporterActionPerformed
+
+    private void ssActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ssActionPerformed
+        StringBuilder sb = new StringBuilder();
+        sb.append("clusterfile\n");
+        for (int i = 0; i < this.clustertable.getModel().getRowCount(); i++) {
+            String name = (String) this.clustertable.getModel().getValueAt(i, 0);
+            String experiment = (String) this.clustertable.getModel().getValueAt(i, 1);
+            Boolean csw = (Boolean) this.clustertable.getModel().getValueAt(i, 2);
+            String path = this.clusterMap.get(name).getAbsolutePath();
+            sb.append(name).append(";").append(experiment).append(";").append(csw).append(";").append(path).append("\n");
+        }
+        JFileChooser jfc = new JFileChooser();
+        jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+        if (jfc.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+            FileWriter outFile = null;
+            try {
+                outFile = new FileWriter(jfc.getSelectedFile());
+                PrintWriter out = new PrintWriter(outFile);
+                out.write(sb.toString());
+            } catch (IOException ex) {
+                Logger.getLogger(MicroArrayUI.class.getName()).log(Level.SEVERE, null, ex);
+            } finally {
+                try {
+                    outFile.close();
+                } catch (IOException ex) {
+                    Logger.getLogger(MicroArrayUI.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        }
+    }//GEN-LAST:event_ssActionPerformed
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable()             {
+        java.awt.EventQueue.invokeLater(new Runnable() {
 
             public void run() {
                 new MicroArrayUI().setVisible(true);
@@ -279,11 +537,19 @@ public class MicroArrayUI extends javax.swing.JFrame {
     }
     private Map<String, File> fileMap = new HashMap<String, File>();
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTable clustertable;
+    private javax.swing.JButton exporter;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JList jList1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
+    private javax.swing.JButton ss;
     // End of variables declaration//GEN-END:variables
 }
