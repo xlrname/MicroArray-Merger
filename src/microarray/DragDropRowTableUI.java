@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package microarray;
 
 import java.awt.Graphics;
@@ -14,10 +9,6 @@ import javax.swing.plaf.basic.BasicTableUI;
 import javax.swing.plaf.basic.BasicTableUI.MouseInputHandler;
 import javax.swing.table.TableModel;
 
-/**
- *
- * @author XLR
- */
 public class DragDropRowTableUI extends BasicTableUI {
 	
 	private boolean draggingRow = false;
