@@ -77,7 +77,7 @@ public class Clusterer {
                     if (!sumMap.containsKey(gene)) {
                         sumMap.put(gene, m.get(gene));
                     } else {
-                        sumMap.put(gene, sumMap.get(gene) + m.get(gene));
+                        sumMap.put(gene, sumMap.get(gene) + (m.get(gene)));
                     }
                 }
             }
@@ -88,7 +88,7 @@ public class Clusterer {
         for (String experiment : experiments) {
             sb.append("\t").append(experiment);
         }
-        sb.append("\n");
+        sb.append("\r\n");
         for (String gene : genes) {
             int geneCount = 0;
             for (List<String> l : this.experimentToGenes.values()) {
@@ -102,16 +102,12 @@ public class Clusterer {
                     sb.append("\t");
                     if (resultMap.get(experiment).get(gene) != null) {
                         double rom = (double) resultMap.get(experiment).get(gene);
-                        if (rom > 0) {
-                            sb.append(Math.round((Math.log(rom)*100))/100.0);
-                        } else {
-                            sb.append(0);
-                        }
+                        sb.append(Math.round(rom * 100) / 100.0);
                     } else {
                         sb.append(0);
                     }
                 }
-                sb.append("\n");
+                sb.append("\r\n");
             }
         }
 
@@ -129,7 +125,7 @@ public class Clusterer {
             List<Double> l = genesToFoldMap.get(gene);
             double sum = 0.0;
             for (double d : l) {
-                sum += d;
+                sum += Math.log10(d);
             }
             sum /= l.size();
             geneToFoldMap_mean.put(gene, sum);
