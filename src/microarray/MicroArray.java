@@ -105,8 +105,6 @@ public class MicroArray {
                 i++;
             }
         }
-        
-//        SortManager.sort(twodime, column, order)
         return o;
     }
 }

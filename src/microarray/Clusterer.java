@@ -86,11 +86,11 @@ public class Clusterer {
         StringBuilder sb = new StringBuilder();
         sb.append("Gene").append("\t");
         for (String experiment : experiments) {
-            sb.append(experiment).append("\t\t\t");
+            sb.append(experiment).append("\t\t");
         }
         sb.append("\r\n\t");
         for (String experiment : experiments) {
-            sb.append("mean\tsd\t\t");
+            sb.append("mean\tsd\t");
         }
         sb.append("\r\n");
         for (String gene : genes) {
@@ -112,19 +112,13 @@ public class Clusterer {
                         for (double d : roms) {
                             statistics.update(d);
                         }
-//                        sum /= i;
-//                        double sd = 0;
-//                        for (double d : roms) {
-//                            sd += Math.pow((d - sum), 2);
-//                        }
                         sb.append(Math.round(statistics.getMean() * 100) / 100.0).append("\t");
                         sb.append(Math.round(statistics.getStandardDeviation() * 100) / 100.0);
-                        sb.append("\t");
-                        for (double d : roms) {
-                            sb.append(d).append(";");
-                        }
+//                        for (double d : roms) {
+//                            sb.append(d).append(";");
+//                        }
                     } else {
-                        sb.append(0);
+                        sb.append("-").append("\t").append("-");
                     }
                 }
                 sb.append("\r\n");
