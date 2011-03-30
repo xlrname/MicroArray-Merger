@@ -5,6 +5,8 @@ A bioinformatics tool with two aims:
  (1) merge technical replicates after an limma (R) analysis
  (2) merge ratio of medians from gpr files as a preprocessing step for gene clustering
 
+For additional information visit http://www.techfak.uni-bielefeld.de/~atoepfer/smap/
+
  * Copyright 2010 Armin Toepfer (xlrname@gmail.com),
  * All rights reserved.
  *
