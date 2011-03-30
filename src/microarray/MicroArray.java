@@ -75,7 +75,6 @@ public class MicroArray {
                 i++;
             }
         }
-        System.out.println(i);
     }
 
     public Object[][] toObjectArray() {
@@ -91,29 +90,16 @@ public class MicroArray {
             int s = le.size();
             if (s >= 2) {
                 o[i][0] = le.get(0).getGname();
-                if (le.get(0).getGname().equals("cg1109")) {
-                    System.out.println("a");
-                }
-                double coefSum = 0;
-                double aSum = 0;
+                Statistics coef = new Statistics();
+                Statistics a = new Statistics();
                 for (Entry e : le) {
-                    coefSum += e.getCoef();
-                    aSum += e.getA();
+                    coef.update(e.getCoef());
+                    a.update(e.getA());
                 }
-                double coefMean = coefSum / s;
-                o[i][1] = coefMean;
-                double coefSD = 0;
-                for (Entry e : le) {
-                    coefSD += Math.pow((e.getCoef() - coefMean), 2);
-                }
-                o[i][2] = coefSD;
-                double aMean = aSum / s;
-                o[i][3] = aMean;
-                double aSD = 0;
-                for (Entry e : le) {
-                    aSD += Math.pow((e.getA() - aMean), 2);
-                }
-                o[i][4] = aSD;
+                o[i][1] = coef.getMean();
+                o[i][2] = coef.getStandardDeviation();
+                o[i][3] = a.getMean();
+                o[i][4] = a.getStandardDeviation();
                 o[i][5] = le.size();
                 o[i][6] = CGAnnotation.getInstance().getDef(o[i][0].toString());
                 i++;

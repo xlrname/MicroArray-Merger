@@ -39,8 +39,8 @@
         <Container class="javax.swing.JPanel" name="jPanel1">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="After limma">
-                <Property name="tabTitle" type="java.lang.String" value="After limma"/>
+              <JTabbedPaneConstraints tabName="topTable merger">
+                <Property name="tabTitle" type="java.lang.String" value="topTable merger"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -181,8 +181,8 @@
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Before clustering">
-                <Property name="tabTitle" type="java.lang.String" value="Before clustering"/>
+              <JTabbedPaneConstraints tabName="GPR merger">
+                <Property name="tabTitle" type="java.lang.String" value="GPR merger"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -241,19 +241,13 @@
                 <Component class="javax.swing.JTable" name="clustertable">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="3" rowCount="0">
+                      <Table columnCount="2" rowCount="0">
                         <Column editable="false" title="File name" type="java.lang.String"/>
                         <Column editable="true" title="Experiment" type="java.lang.String"/>
-                        <Column editable="true" title="CSW" type="java.lang.Boolean"/>
                       </Table>
                     </Property>
                     <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
                       <TableColumnModel selectionModel="0">
-                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                          <Title/>
-                          <Editor/>
-                          <Renderer/>
-                        </Column>
                         <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
                           <Title/>
                           <Editor/>

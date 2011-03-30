@@ -40,35 +40,35 @@ public class Clusterer {
     private Map<String, List<File>> clusterDataMap;
     private List<String> genes = new LinkedList<String>();
     private List<String> experiments;
-    private Map<String, Boolean> filenameToCSW;
     private Map<String, List<String>> experimentToGenes = new HashMap<String, List<String>>();
 
-    public Clusterer(Map<String, List<File>> clusterDataMap, List<String> experiments, Map<String, Boolean> filenameToCSW) {
+    public Clusterer(Map<String, List<File>> clusterDataMap, List<String> experiments) {
         this.clusterDataMap = clusterDataMap;
         this.experiments = experiments;
-        this.filenameToCSW = filenameToCSW;
         for (String s : experiments) {
             this.experimentToGenes.put(s, new LinkedList<String>());
         }
     }
 
     public String getClusters() {
-        Map<String, Map<String, Double>> resultMap = new HashMap<String, Map<String, Double>>();
-        Map<String, List<Map<String, Double>>> map = new HashMap<String, List<Map<String, Double>>>();
+        Map<String, Map<String, List<Double>>> resultMap = new HashMap<String, Map<String, List<Double>>>();
+        Map<String, List<Map<String, List<Double>>>> map = new HashMap<String, List<Map<String, List<Double>>>>();
         for (String experiment : clusterDataMap.keySet()) {
-            Map<String, Double> geneToFoldMap = this.parseList(experiment, clusterDataMap.get(experiment));
+            Map<String, List<Double>> geneToFoldMap = this.parseList(experiment, clusterDataMap.get(experiment));
             if (!map.containsKey(experiment)) {
-                map.put(experiment, new LinkedList<Map<String, Double>>());
+                map.put(experiment, new LinkedList<Map<String, List<Double>>>());
             }
             map.get(experiment).add(geneToFoldMap);
         }
-
         for (String experiment : map.keySet()) {
             Map<String, Integer> geneCount = new HashMap<String, Integer>();
-            Map<String, Double> sumMap = new HashMap<String, Double>();
-            List<Map<String, Double>> l = map.get(experiment);
-            for (Map<String, Double> m : l) {
+            Map<String, List<Double>> sumMap = new HashMap<String, List<Double>>();
+            List<Map<String, List<Double>>> l = map.get(experiment);
+            for (Map<String, List<Double>> m : l) {
                 for (String gene : m.keySet()) {
+                    if (!this.genes.contains(gene)) {
+                        this.genes.add(gene);
+                    }
                     if (!geneCount.containsKey(gene)) {
                         geneCount.put(gene, 1);
                     } else {
@@ -77,16 +77,20 @@ public class Clusterer {
                     if (!sumMap.containsKey(gene)) {
                         sumMap.put(gene, m.get(gene));
                     } else {
-                        sumMap.put(gene, sumMap.get(gene) + (m.get(gene)));
+                        sumMap.get(gene).addAll(m.get(gene));
                     }
                 }
             }
             resultMap.put(experiment, sumMap);
         }
         StringBuilder sb = new StringBuilder();
-        sb.append("Gene");
+        sb.append("Gene").append("\t");
         for (String experiment : experiments) {
-            sb.append("\t").append(experiment);
+            sb.append(experiment).append("\t\t\t");
+        }
+        sb.append("\r\n\t");
+        for (String experiment : experiments) {
+            sb.append("mean\tsd\t\t");
         }
         sb.append("\r\n");
         for (String gene : genes) {
@@ -101,8 +105,24 @@ public class Clusterer {
                 for (String experiment : experiments) {
                     sb.append("\t");
                     if (resultMap.get(experiment).get(gene) != null) {
-                        double rom = (double) resultMap.get(experiment).get(gene);
-                        sb.append(Math.round(rom * 100) / 100.0);
+                        List<Double> roms = resultMap.get(experiment).get(gene);
+                        Statistics statistics = new Statistics();
+                        double sum = 0;
+                        int i = 0;
+                        for (double d : roms) {
+                            statistics.update(d);
+                        }
+//                        sum /= i;
+//                        double sd = 0;
+//                        for (double d : roms) {
+//                            sd += Math.pow((d - sum), 2);
+//                        }
+                        sb.append(Math.round(statistics.getMean() * 100) / 100.0).append("\t");
+                        sb.append(Math.round(statistics.getStandardDeviation() * 100) / 100.0);
+                        sb.append("\t");
+                        for (double d : roms) {
+                            sb.append(d).append(";");
+                        }
                     } else {
                         sb.append(0);
                     }
@@ -112,28 +132,16 @@ public class Clusterer {
         }
 
 
-        return sb.toString();
+        return sb.toString().replaceAll("\\.", ",");
     }
+    
 
-    private Map<String, Double> parseList(String experiment, List<File> get) {
+    private Map<String, List<Double>> parseList(String experiment, List<File> get) {
         Map<String, List<Double>> genesToFoldMap = new HashMap<String, List<Double>>();
         for (File f : get) {
             this.parseFile(experiment, f, genesToFoldMap);
         }
-        Map<String, Double> geneToFoldMap_mean = new HashMap<String, Double>();
-        for (String gene : genesToFoldMap.keySet()) {
-            List<Double> l = genesToFoldMap.get(gene);
-            double sum = 0.0;
-            for (double d : l) {
-                sum += Math.log10(d);
-            }
-            sum /= l.size();
-            geneToFoldMap_mean.put(gene, sum);
-            if (!genes.contains(gene)) {
-                genes.add(gene);
-            }
-        }
-        return geneToFoldMap_mean;
+        return genesToFoldMap;
     }
 
     private void parseFile(String experiment, File f, Map<String, List<Double>> map) {

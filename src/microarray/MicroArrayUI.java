@@ -239,7 +239,7 @@ public class MicroArrayUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("After limma", jPanel1);
+        jTabbedPane1.addTab("topTable merger", jPanel1);
 
         jButton3.setText("Load files");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -253,14 +253,14 @@ public class MicroArrayUI extends javax.swing.JFrame {
 
             },
             new String [] {
-                "File name", "Experiment", "CSW"
+                "File name", "Experiment"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.Boolean.class
+                java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
-                false, true, true
+                false, true
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -319,7 +319,7 @@ public class MicroArrayUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Before clustering", jPanel2);
+        jTabbedPane1.addTab("GPR merger", jPanel2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -368,9 +368,7 @@ public class MicroArrayUI extends javax.swing.JFrame {
                         }
                         sb.append("\t");
                     }
-                    sb.setCharAt(sb.length() - 1, '\\');
-                    sb.append("\\");
-                    out.println(sb.toString());
+                    out.println(sb.toString().replaceAll("\\.", ","));
                 }
             } catch (IOException ex) {
                 Logger.getLogger(MicroArrayUI.class.getName()).log(Level.SEVERE, null, ex);
@@ -417,40 +415,38 @@ public class MicroArrayUI extends javax.swing.JFrame {
                     String[] split = strLine.split(";");
                     
                     
-                    Object[] tc = new Object[3];
+                    Object[] tc = new Object[2];
                     tc[0] = split[0];
                     tc[1] = split[1];
-                    tc[2] = Boolean.parseBoolean(split[2]);
                     tableContent.add(tc);
-                    this.clusterMap.put(split[0], new File(split[3]));
+                    this.clusterMap.put(split[0], new File(split[2]));
                 }
                 in.close();
             } catch (Exception e) {
                 e.printStackTrace();
             }
             if (!schema) {
-                Object[] tc = new Object[3];
+                Object[] tc = new Object[2];
                 tc[0] = s;
                 tc[1] = s;
-                tc[2] = s.contains("CSW") || s.contains("csw");
                 tableContent.add(tc);
             }
         }
-        Object[][] tableContent_array = new Object[tableContent.size()][3];
+        Object[][] tableContent_array = new Object[tableContent.size()][2];
         for (int i = 0; i < tableContent.size(); i++) {
             tableContent_array[i] = tableContent.get(i);
         }
         clustertable.setModel(new FooTableModel(
                 tableContent_array,
                 new String[]{
-                    "File name", "Experiment", "CSW"
+                    "File name", "Experiment"
                 }) {
 
             Class[] types = new Class[]{
-                java.lang.String.class, java.lang.String.class, java.lang.Boolean.class
+                java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean[]{
-                false, true, true
+                false, true
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -470,7 +466,6 @@ public class MicroArrayUI extends javax.swing.JFrame {
     private void exporterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exporterActionPerformed
         this.clusterDataMap.clear();
         List<String> experiments = new LinkedList<String>();
-        Map<String, Boolean> filenameToCSW = new HashMap<String, Boolean>();
         for (int i = 0; i < this.clustertable.getModel().getRowCount(); i++) {
             String experiment = (String) this.clustertable.getModel().getValueAt(i, 1);
             if (!this.clusterDataMap.containsKey(experiment)) {
@@ -478,8 +473,6 @@ public class MicroArrayUI extends javax.swing.JFrame {
             }
             List<File> l = this.clusterDataMap.get(experiment);
             l.add(this.clusterMap.get(this.clustertable.getModel().getValueAt(i, 0)));
-            Boolean csw = (Boolean) this.clustertable.getModel().getValueAt(i, 2);
-            filenameToCSW.put((String) this.clustertable.getModel().getValueAt(i, 0), csw);
             if (!experiments.contains(experiment)) {
                 experiments.add(experiment);
             }
@@ -492,7 +485,7 @@ public class MicroArrayUI extends javax.swing.JFrame {
             try {
                 outFile = new FileWriter(jfc.getSelectedFile());
                 PrintWriter out = new PrintWriter(outFile);
-                out.write(new Clusterer(clusterDataMap, experiments, filenameToCSW).getClusters());
+                out.write(new Clusterer(clusterDataMap, experiments).getClusters());
             } catch (IOException ex) {
                 Logger.getLogger(MicroArrayUI.class.getName()).log(Level.SEVERE, null, ex);
             } finally {
@@ -511,9 +504,8 @@ public class MicroArrayUI extends javax.swing.JFrame {
         for (int i = 0; i < this.clustertable.getModel().getRowCount(); i++) {
             String name = (String) this.clustertable.getModel().getValueAt(i, 0);
             String experiment = (String) this.clustertable.getModel().getValueAt(i, 1);
-            Boolean csw = (Boolean) this.clustertable.getModel().getValueAt(i, 2);
             String path = this.clusterMap.get(name).getAbsolutePath();
-            sb.append(name).append(";").append(experiment).append(";").append(csw).append(";").append(path).append("\n");
+            sb.append(name).append(";").append(experiment).append(";").append(path).append("\n");
         }
         JFileChooser jfc = new JFileChooser();
         jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);
