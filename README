@@ -1,5 +1,5 @@
 
-Simple Micro Array Processer.
+Simple Micro Array Processing.
 
 A bioinformatics tool with two aims:
  (1) merge technical replicates after an limma (R) analysis

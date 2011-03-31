@@ -1,0 +1,2993 @@
+cg0001	chromosomal replication initiation protein
+cg0004	DNA polymerase III subunit beta
+cg0005	recombination protein F
+cg0006	hypothetical protein
+cg0007	DNA gyrase subunit B
+cg0008	hypothetical protein
+cg0009	hypothetical protein
+cg0010	hypothetical protein
+cg0012	transcriptional regulator
+cg0013	hypothetical protein
+cg0014	hypothetical protein
+cg0015	DNA gyrase subunit A
+cg0016	hypothetical protein
+cg0018	uncharacterized membrane protein
+cg0019	transcriptional regulator
+cg0021	hypothetical protein
+cg0025	cytochrome C biogenesis protein
+cg0026	protein-disulfide isomerase
+cg0027	transcriptional regulator
+cg0029	Zn-dependent protease with chaperone function
+cg0034	5'-nucleotidase/2',3'-cyclic phosphodiesterase or related esterase
+cg0035	5'-nucleotidase/2',3'-cyclic phosphodiesterase or related esterase
+cg0038	stress-induced protein
+cg0039	transcriptional regulator
+cg0040	hypothetical protein
+cg0041	ABC-type transporter, periplasmic component
+cg0042	ABC-type transporter, permease component
+cg0043	ABC-type transporter, ATPase component
+cg0044	ABC-type transporter, periplasmic component
+cg0045	ABC-type transporter, permease component
+cg0046	ABC-type transporter, ATPase component
+cg0047	hypothetical protein
+cg0048	peptidyl-prolyl cis-trans isomerase (rotamase)
+cg0049	uncharacterized membrane protein
+cg0051	AraC-type DNA-binding domain-containing protein
+cg0052	ABC-type transporter, permease component
+cg0053	ABC-type transporter, ATPase component
+cg0054	siderophore-interacting protein
+cg0055	putative septation inhibitor protein
+cg0057	serine/threonine protein kinase
+cg0059	serine/threonine protein kinase
+cg0060	cell division protein FtsI
+cg0061	cell division membrane protein
+cg0062	protein serine/threonine phosphatase
+cg0063	FHA-domain-containing protein
+cg0064	hypothetical protein
+cg0065	hypothetical protein
+cg0066	hypothetical protein
+cg0067	NAD-dependent aldehyde dehydrogenase
+cg0070	phenol 2-monooxygenase
+cg0071	Zn-dependent hydrolase
+cg0072	hypothetical protein
+cg0073	rhodanese-related sulfurtransferase
+cg0074	rhodanese-related sulfurtransferase
+cg0075	hypothetical protein
+cg0076	hypothetical protein
+cg0077	hypothetical protein
+cg0078	hypothetical protein
+cg0079	hypothetical protein
+cg0080	Mg2+ and Co2+ transporter protein
+cg0081	4-oxalocrotonate tautomerase-like protein
+cg0082	chloride channel EriC-like protein
+cg0083	nicotinamide mononucleotide transporter
+cg0085	ATPase related to phosphate starvation-inducible protein PhoH
+cg0087	hypothetical protein
+cg0088	H+/citrate symporter
+cg0089	two-component system sensory transduction histidine kinase
+cg0090	two-component system response regulator
+cg0091	phosphoglycerate dehydrogenase or related dehydrogenase
+cg0092	hypothetical protein
+cg0095	biotin synthase
+cg0096	hypothetical protein
+cg0097	hypothetical protein
+cg0103	permease
+cg0104	cytosine deaminase or related metal-dependent hydrolase
+cg0105	hypothetical protein
+cg0107	hypothetical protein
+cg0108	Sir2 family NAD-dependent protein deacetylase
+cg0109	acetyltransferase or hydrolase
+cg0110	acetyltransferase or hydrolase
+cg0111	hypothetical protein
+cg0112	mar family transcriptional regulator
+cg0113	urease subunit gamma
+cg0114	urease subunit beta
+cg0115	urease subunit alpha
+cg0116	urease accessory protein UreE
+cg0117	urease accessory protein UreF
+cg0118	Ni2+-binding GTPase
+cg0119	urease accessory protein UreH
+cg0120	hydrolase or acyltransferase
+cg0121	permease
+cg0122	hypothetical protein
+cg0123	HSP90 family molecular chaperone
+cg0124	AMP nucleosidase
+cg0126	hypothetical protein
+cg0127	thiamine pyrophosphate-requiring enzyme
+cg0128	hypothetical protein
+cg0129	proline dehydrogenase
+cg0131	oxidoreductase
+cg0133	putative p-aminobenzoyl-glutamate transporter
+cg0134	metal-dependent enzyme
+cg0135	hypothetical protein
+cg0136	hypothetical protein
+cg0138	acyl-CoA synthetase (AMP-forming)/AMP-acid ligase II
+cg0139	DeoR family sugar metabolism transcriptional regulator
+cg0141	lactoylglutathione lyase or related lyase
+cg0142	phosphohistidine phosphatase SixA
+cg0143	mannitol-1-phosphate/altronate dehydrogenase
+cg0144	permease
+cg0146	DeoR family sugar metabolism transcriptional regulator
+cg0147	sugar (pentulose and hexulose) kinase
+cg0148	panthothenate synthetase
+cg0149	3-methyl-2-oxobutanoate hydroxymethyltransferase
+cg0150	hypothetical protein
+cg0151	3-methyladenine DNA glycosylase
+cg0152	hypothetical protein
+cg0153	esterase/lipase
+cg0154	HAD superfamily hydrolase
+cg0155	carbonic anhydrase/acetyltransferase
+cg0156	transcriptional regulator
+cg0158	major facilitator superfamily permease
+cg0159	hypothetical protein
+cg0160	hypothetical protein
+cg0161	hypothetical protein
+cg0162	hypothetical protein
+cg0163	glycosyltransferase
+cg0165	hypothetical protein
+cg0166	ankyrin repeat-containing protein
+cg0167	permease
+cg0168	permease
+cg0170	hypothetical protein
+cg0171	hypothetical protein
+cg0172	aspartate alpha-decarboxylase
+cg0173	hypothetical protein
+cg0174	putative ammonia monooxygenase
+cg0175	hypothetical protein
+cg0176	permease
+cg0177	hypothetical protein
+cg0178	HrpA-like helicase
+cg0180	acetyltransferase
+cg0181	alkylated DNA repair protein
+cg0182	3-methyladenine DNA glycosylase
+cg0183	putative threonine efflux protein
+cg0184	hypothetical protein
+cg0185	lactoylglutathione lyase-like protein
+cg0186	methylated DNA-protein cysteine methyltransferase
+cg0187	hypothetical protein
+cg0188	hypothetical protein
+cg0191	putative translation initiation inhibitor
+cg0192	hypothetical protein
+cg0193	metalloendopeptidase
+cg0194	hypothetical protein
+cg0195	hypothetical protein
+cg0196	transcriptional regulator
+cg0197	ribokinase family sugar kinase
+cg0198	hypothetical protein
+cg0199	NAD-dependent aldehyde dehydrogenase
+cg0201	hypothetical protein
+cg0202	thiamine pyrophosphate-requiring enzyme
+cg0203	hypothetical protein
+cg0204	dehydrogenase
+cg0205	sugar phosphate isomerase/epimerase
+cg0206	major facilitator superfamily permease
+cg0207	dehydrogenase
+cg0208	hypothetical protein
+cg0209	hypothetical protein
+cg0210	transcriptional regulator
+cg0211	dehydrogenase
+cg0212	sugar phosphate isomerase/epimerase
+cg0214	hypothetical protein
+cg0215	cold shock protein
+cg0216	hypothetical protein
+cg0217	transcriptional regulator
+cg0218	SAM-dependent methyltransferase
+cg0220	hypothetical protein
+cg0221	transcriptional regulator
+cg0222	hypothetical protein
+cg0223	major facilitator superfamily permease
+0	transposase
+cg0228	PAS/PAC domain-containing protein
+cg0229	glutamine 2-oxoglutarate aminotransferase large subunit
+cg0230	glutamate synthase subunit beta
+cg0233	hypothetical protein
+cg0235	putative arabinosyl transferase
+cg0236	hypothetical protein
+cg0237	short chain dehydrogenase
+cg0238	FAD/FMN-containing dehydrogenase
+cg0239	hypothetical protein
+cg0240	hypothetical protein
+cg0241	hypothetical protein
+cg0242	hypothetical protein
+cg0243	hypothetical protein
+cg0244	hypothetical protein
+cg0245	hypothetical protein
+cg0246	glycosyltransferase
+cg0247	hypothetical protein
+cg0248	ABC-type transporter, ATPase component
+cg0249	ABC-type transporter, permease component
+cg0250	selenocysteine lyase
+cg0251	NADPH:quinone reductase or related Zn-dependent oxidoreductase
+cg0252	hypothetical protein
+cg0253	hypothetical protein
+cg0254	Na+/alanine symporter
+cg0256	hypothetical protein
+cg0257	molybdopterin biosynthesis protein MoeB
+cg0258	molybdopterin converting factor, large subunit
+cg0259	molybdopterin biosynthesis enzyme
+cg0260	molybdenum cofactor biosynthesis protein C
+cg0261	molybdopterin biosynthesis enzyme
+cg0262	ABC-type transporter, permease component
+cg0263	ABC-type transporter, periplasmic component
+cg0264	hypothetical protein
+cg0265	ABC-type transporter, ATPase component
+cg0266	hypothetical protein
+cg0267	putative aminotransferase
+cg0269	hypothetical protein
+cg0270	hypothetical protein
+cg0272	helix-turn-helix containing transcriptional regulator
+cg0273	Zn-dependent alcohol dehydrogenase
+cg0274	monoamine oxidase
+cg0275	Mg/Co/Ni transporter MgtE
+cg0277	di- and tricarboxylate transporter
+cg0279	prephenate dehydrogenase
+cg0280	hypothetical protein
+cg0281	cytosine/adenosine deaminase
+cg0282	hypothetical protein
+cg0283	hypothetical protein
+cg0284	RND superfamily drug exporter
+cg0285	queuine/archaeosine tRNA-ribosyltransferase
+cg0286	hypothetical protein
+cg0287	malic enzyme protein
+cg0288	ABC-type multidrug/protein/lipid transport system, ATPase component
+cg0289	glutamyl-Q tRNA(Asp) synthetase
+cg0291	dioxygenase
+0	putative transposase
+0	hypothetical protein
+cg0294	aspartate transaminase
+cg0295	hypothetical protein
+cg0296	DNA polymerase III subunits gamma and tau
+cg0297	hypothetical protein
+cg0298	recombination protein RecR
+cg0299	glutamine amidotransferase
+cg0300	UDP-N-acetylmuramyl tripeptide synthase
+cg0302	DNA polymerase III subunit epsilon
+cg0303	2-isopropylmalate synthase
+cg0304	hypothetical protein
+cg0306	aspartate kinase
+cg0307	aspartate-semialdehyde dehydrogenase
+cg0308	hypothetical protein
+cg0309	RNA polymerase sigma factor
+cg0310	catalase
+cg0311	hypothetical protein
+cg0313	transcriptional regulator
+cg0314	branched-chain amino acid permease
+cg0315	hypothetical protein
+cg0316	hypothetical protein
+cg0317	transcriptional regulator
+cg0318	arsenite efflux pump ACR3
+cg0319	protein-tyrosine-phosphatase
+cg0321	putative monovalent cation/H+ antiporter subunit G
+cg0322	putative monovalent cation/H+ antiporter subunit F
+cg0323	putative monovalent cation/H+ antiporter subunit E
+cg0324	putative monovalent cation/H+ antiporter subunit D
+cg0325	putative monovalent cation/H+ antiporter subunit C
+cg0326	putative monovalent cation/H+ antiporter subunit A
+cg0327	hypothetical protein
+cg0328	hypothetical protein
+cg0330	two-component system, response regulator
+cg0331	two-component system, sensory transduction histidine kinase
+cg0332	hypothetical protein
+cg0333	uncharacterized membrane-associated protein
+cg0334	phosphohydrolase
+cg0335	hypothetical protein
+cg0336	membrane carboxypeptidase
+cg0337	putative regulatory protein
+cg0338	hypothetical protein
+cg0339	putative translation initiation inhibitor
+cg0340	major facilitator superfamily permease
+cg0341	acyl-CoA synthetase
+cg0343	ranscriptional regulator
+cg0344	dehydrogenase
+cg0345	metal-dependent hydrolase of the TIM-barrel fold
+cg0346	acyl-CoA dehydrogenase
+cg0347	acyl dehydratase
+cg0349	Zn-dependent hydrolase
+cg0350	cAMP-binding domain-containing protein
+cg0352	hypothetical protein
+cg0353	EndoIII-related endonuclease
+cg0354	thiol-disulfide isomerase
+cg0355	NTP pyrophosphohydrolase
+cg0356	trypsin-like serine protease
+cg0358	hydrolase or acyltransferase
+cg0359	hypothetical protein
+cg0360	phosphoserine phosphatase
+cg0362	hypothetical protein
+cg0364	ATPase involved in pili and flagella biosynthesis
+cg0363	hypothetical protein
+cg0365	hypothetical protein
+cg0366	hypothetical protein
+cg0368	hypothetical protein
+cg0369	hypothetical protein
+cg0370	helicase
+cg0371	cold shock protein
+cg0373	DNA topoisomerase I
+cg0374	hypothetical protein
+cg0375	adenylate cyclase
+cg0376	DNA polymerase III subunit delta'
+cg0378	uncharacterized phage-associated protein
+cg0382	putative adenylate kinase
+cg0384	23S RNA-specific pseudouridylate synthase
+cg0385	beta-glucosidase-related glycosidase
+cg0386	hypothetical protein
+cg0387	class III Zn-dependent alcohol dehydrogenase
+cg0388	Zn-dependent hydrolase or glyoxylase
+cg0389	dehydrogenase
+cg0390	major facilitator superfamily permease
+cg0391	nucleoside-diphosphate-sugar epimerase
+cg0393	hypothetical protein
+cg0394	glycosyltransferase involved in cell wall biogenesis
+cg0395	hypothetical protein
+cg0396	glycosyltransferase
+cg0397	5'-nucleotidase/2',3'-cyclic phosphodiesterase or related esterase
+cg0399	hypothetical protein
+cg0400	Zn-dependent alcohol dehydrogenase
+cg0401	dTDP-glucose pyrophosphorylase
+cg0402	dTDP-4-dehydrorhamnose 3,5-epimerase or related enzyme
+cg0403	dTDP-D-glucose 4,6-dehydratase
+cg0404	nitroreductase
+cg0405	periplasmic component of ABC-type Fe3+-siderophore transport system
+cg0407	hypothetical protein
+cg0408	hypothetical protein
+cg0409	aminopeptidase N
+cg0410	serine protease
+cg0411	hypothetical protein
+cg0412	hypothetical protein
+cg0413	esterase
+cg0414	putative ATPase involved in chromosome partitioning
+cg0415	protein-tyrosine-phosphatase
+cg0416	hypothetical protein
+cg0417	nucleoside-diphosphate sugar epimerase
+cg0418	pyridoxal phosphate-dependent enzyme
+cg0419	sugar transferase involved in lipopolysaccharide synthesis
+cg0420	glycosyltransferase
+cg0421	O-antigen and teichoic acid membrane export protein
+cg0422	UDP-N-acetylglucosamine enolpyruvyl transferase
+cg0423	UDP-N-acetylmuramate dehydrogenase
+cg0424	cell wall biogenesis glycosyltransferase
+cg0426	putative transposase
+cg0431	hypothetical protein
+cg0432	acyltransferase
+cg0435	UDP-glucose 6-dehydrogenase
+cg0437	hypothetical protein
+cg0438	cell wall biogenesis glycosyltransferase
+cg0439	acetyltransferase
+cg0441	dihydrolipoamide dehydrogenase
+cg0442	UDP-glucose pyrophosphorylase
+cg0443	hypothetical protein
+cg0444	transcriptional regulator
+cg0445	hypothetical protein
+cg0446	succinate dehydrogenase flavoprotein subunit
+cg0447	succinate dehydrogenase/fumarate reductase iron-sulfur subunit
+cg0448	hypothetical protein
+cg4001	hypothetical protein
+cg0450	hypothetical protein
+cg0451	hypothetical protein
+cg0452	hypothetical protein
+cg0453	hypothetical protein
+cg0454	transcriptional regulator
+cg0455	major facilitator superfamily permease
+cg0456	major facilitator superfamily permease
+cg0457	formyltetrahydrofolate deformylase
+cg0458	deoxyribose-phosphate aldolase
+cg0462	hypothetical protein
+cg0463	hypothetical protein
+cg0464	cation transport ATPase
+cg0465	hypothetical protein
+cg0466	hypothetical protein
+cg0467	ABC-type transporter, periplasmic component
+cg0468	ABC-type transporter, permease component
+cg0469	ABC-type transporter, ATPase component
+cg0470	hypothetical protein
+cg0471	hypothetical protein
+cg0472	hypothetical protein
+cg0474	hypothetical protein
+cg0475	hypothetical protein
+cg0476	UDP-N-acetylenolpyruvoylglucosamine reductase
+cg0477	hypothetical protein
+cg0480	acyl-CoA synthetase
+cg0481	glycosyltransferase
+cg0482	phosphoglyceromutase
+cg0483	signal transduction histidine kinase
+cg0484	two-component system, response regulators
+cg0485	hypothetical protein
+cg0486	ABC-type transport system permease component
+cg0487	hypothetical protein
+cg0488	exopolyphosphatase
+cg0489	hypothetical protein
+cg0490	pyrroline-5-carboxylate reductase
+cg0492	hypothetical protein
+cg0495	phosphoserine phosphatase
+cg0496	hypothetical protein
+cg0497	glutamyl-tRNA reductase
+cg0498	porphobilinogen deaminase
+#N/A	hypothetical protein
+cg0500	transcriptional regulator
+cg0501	major facilitator superfamily permease
+cg0502	sugar phosphate isomerase/epimerase
+cg0503	3-dehydroquinate dehydratase
+cg0504	shikimate 5-dehydrogenase
+cg0505	hypothetical protein
+cg0506	ABC-type transporter, ATPase component
+cg0507	ABC-type transporter permease component
+cg0508	ABC-type transporter periplasmic component
+cg0510	uroporphyrinogen-III synthase/methylase
+cg0511	hypothetical protein
+cg0512	delta-aminolevulinic acid dehydratase
+cg0513	hypothetical protein
+cg0514	hypothetical protein
+cg0515	cation transport ATPase
+cg0516	uroporphyrinogen decarboxylase
+cg0517	protoporphyrinogen oxidase
+cg0518	glutamate-1-semialdehyde aminotransferase
+cg0519	phosphoglycerate mutase/fructose-2,6-bisphosphatase
+cg0520	thiol-disulfide isomerase or thioredoxin
+cg0522	cytochrome C biogenesis protein
+cg0523	cytochrome C biosynthesis protein ResB
+cg0524	cytochrome C assembly protein
+cg0525	hypothetical protein
+cg0526	putative YjgF translation initiation inhibitor
+cg0527	ArsR family transcriptional regulator
+cg0528	hypothetical protein
+cg0530	hypothetical protein
+cg0531	1,4-dihydroxy-2-naphthoate octaprenyltransferase
+cg0532	hypothetical protein
+cg0533	O-succinylbenzoic acid--CoA ligase
+cg0534	hypothetical protein
+cg0535	ketoglutarate semialdehyde dehydrogenase
+cg0536	5-dehydro-4-deoxyglucarate dehydratase
+cg0537	transcriptional regulator
+cg0538	hypothetical protein
+cg0540	hypothetical protein
+cg0542	hypothetical protein
+cg0543	hypothetical protein
+cg0544	hypothetical protein
+cg0545	phosphate/sulphate permease
+cg0548	naphthoate synthase
+cg0549	pterin-4a-carbinolamine dehydratase
+cg0550	peptidase E
+cg0551	O-succinylbenzoate synthase
+cg0552	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylic acid synthase/2-oxoglutarate decarboxylase
+cg0553	hypothetical protein
+cg0554	group 1 glycosyltransferase
+cg0555	gamma-aminobutyrate permease or related permease
+cg0556	ubiquinone/menaquinone biosynthesis methyltransferase
+cg0557	oxidoreductase
+cg0559	geranylgeranyl pyrophosphate synthase
+cg0561	preprotein translocase subunit SecE
+cg0562	transcription antitermination protein NusG
+cg0563	50S ribosomal protein L11
+cg0564	50S ribosomal protein L1
+cg0565	putative regulatory protein
+cg0566	4-aminobutyrate aminotransferase
+cg0567	NAD-dependent aldehyde dehydrogenase
+cg0568	amino acid permease
+cg0569	cation transport ATPase
+cg0570	hypothetical protein
+cg0571	hypothetical protein
+cg0572	50S ribosomal protein L10
+cg0573	50S ribosomal protein L7/L12
+cg0575	hypothetical protein
+cg0576	DNA-directed RNA polymerase subunit beta
+cg0577	DNA-directed RNA polymerase subunit beta'
+#N/A	hypothetical protein
+cg0579	transcriptional regulator
+cg0580	hypothetical protein
+cg0581	30S ribosomal protein S12
+cg0582	30S ribosomal protein S7
+cg0583	elongation factor G
+0	hypothetical protein
+cg0587	elongation factor Tu
+cg0588	hypothetical protein
+cg0589	ABC-type transporter, ATPase component
+cg0590	ABC-type transporter, permease component
+cg0591	ABC-type transporter, permease component
+cg0592	acetyl-CoA hydrolase
+cg0593	30S ribosomal protein S10
+cg0594	50S ribosomal protein L3
+cg0596	50S ribosomal protein L4
+cg0597	50S ribosomal protein L23
+cg0598	50S ribosomal protein L2
+cg0599	30S ribosomal protein S19
+cg0600	50S ribosomal protein L22
+cg0601	30S ribosomal protein S3
+cg0602	50S ribosomal protein L16
+cg0603	50S ribosomal protein L29
+cg0604	30S ribosomal protein S17
+cg0606	hypothetical protein
+cg0607	hypothetical protein
+cg0608	50S ribosomal protein L14
+cg0609	50S ribosomal protein L24
+cg0610	50S ribosomal protein L5
+cg0611	hypothetical protein
+cg0612	aldo/keto reductase
+cg0614	hypothetical protein
+cg0616	formate dehydrogenase accessory protein
+cg0617	hypothetical protein
+cg0618	putative formate dehydrogenase
+cg0620	hypothetical protein
+cg0621	putative integral membrane protein
+cg0622	ABC-type cobalt transport system, ATPase component
+cg0623	ABC-type cobalt transport system, permease component
+cg0624	hypothetical protein
+cg0625	hypothetical protein
+cg0627	acetyltransferase
+cg0628	30S ribosomal protein S8
+cg0629	50S ribosomal protein L6
+cg0630	50S ribosomal protein L18
+cg0631	30S ribosomal protein S5
+cg0632	50S ribosomal protein L30
+cg0634	50S ribosomal protein L15
+cg0635	NAD-dependent aldehyde dehydrogenase
+cg0636	hypothetical protein
+cg0637	NAD-dependent aldehyde dehydrogenase
+cg0638	hypothetical protein
+cg0639	putative reductase
+cg0640	ferredoxin
+cg0641	dehydrogenase
+cg0642	hypothetical protein
+cg0644	phosphoenolpyruvate synthase/pyruvate phosphate dikinase-like protein
+cg0645	cytochrome P450
+cg0646	transcriptional regulator
+cg0647	preprotein translocase subunit SecY
+cg0648	adenylate kinase
+cg0649	methionine aminopeptidase
+cg0650	hypothetical protein
+cg0651	translation initiation factor IF-1
+cg0652	30S ribosomal protein S13
+cg0653	30S ribosomal protein S11
+cg0654	30S ribosomal protein S4
+cg0655	DNA-directed RNA polymerase subunit alpha
+cg0656	50S ribosomal protein L17
+cg0657	tRNA pseudouridine synthase A
+cg0658	hypothetical protein
+cg0659	putative acetyltransferase
+cg0660	hypothetical protein
+cg0661	hypothetical protein
+cg0662	FAD/FMN-containing dehydrogenase
+cg0663	putative cyclopropane-fatty-acyl-phospholipid synthase
+cg0664	hypothetical protein
+cg0665	subtilisin-like serine protease
+cg0666	hypothetical protein
+cg0668	DNA segregation ATPase FtsK/SpoIIIE family protein
+cg0669	hypothetical protein
+cg0671	hypothetical protein
+cg0672	hypothetical protein
+cg0673	50S ribosomal protein L13
+cg0674	30S ribosomal protein S9
+cg0675	phosphomannomutase
+cg0676	hypothetical protein
+cg0678	hypothetical protein
+cg0679	hypothetical protein
+cg0680	hypothetical protein
+cg0681	alanine racemase
+cg0682	hypothetical protein
+cg0683	hypothetical protein
+cg0684	putative aminopeptidase
+cg0685	hypothetical protein
+cg0686	acetyltransferase
+cg0687	O-sialoglycoprotein endopeptidase
+cg0688	hypothetical protein
+cg0689	hypothetical protein
+cg0690	co-chaperonin GroES
+cg0693	chaperonin GroEL
+cg0695	hypothetical protein
+cg0696	RNA polymerase sigma factor SigD
+cg0697	hypothetical protein
+cg0698	hypothetical protein
+cg0699	inositol-5-monophosphate dehydrogenase
+cg0700	inositol-5-monophosphate dehydrogenase
+cg0701	hypothetical protein
+cg0702	transcriptional regulator
+cg0703	bifunctional GMP synthase/glutamine amidotransferase protein
+cg0704	hypothetical protein
+cg0706	hypothetical protein
+cg0707	two-component system sensor kinase
+cg0709	two-component system response regulator
+cg0710	hypothetical protein
+cg0711	hypothetical protein
+cg0712	hypothetical protein
+cg0713	hypothetical protein
+cg0714	hypothetical protein
+cg0715	hypothetical protein
+cg0716	hypothetical protein
+cg0717	prenyltransferase
+cg0718	C50 carotenoid epsilon cyclase
+cg0719	C50 carotenoid epsilon cyclase
+cg0720	putative phytoene dehydrogenase
+cg0721	phytoene synthetase
+cg0722	RND superfamily drug exporter
+cg0723	geranylgeranyl pyrophosphate synthase
+cg0725	MarR family transcriptional regulator
+cg0726	lipocalin
+cg0727	nucleoside-diphosphate-sugar epimerase
+cg0728	deoxyribodipyrimidine photolyase
+cg0730	cell wall biogenesis glycosyltransferase
+cg0732	ABC transporter permease
+cg0733	ABC-type transporter, ATPase component
+cg0735	ABC-type transporter, permease component
+cg0736	ABC-type transporter, ATPase component
+cg0737	ABC-type transporter, periplasmic component
+cg0738	error-prone DNA polymerase
+cg0739	hypothetical protein
+cg0740	hypothetical protein
+cg0741	Mn-dependent transcriptional regulator
+cg0742	hypothetical protein
+cg0745	NAD-dependent deacetylase
+cg0747	cytosine/adenosine deaminase
+cg0748	ABC-type Fe3+-siderophores transport system, periplasmic component
+cg0749	SpoU class rRNA methylase
+cg0750	5,10-methylene-tetrahydrofolate dehydrogenase
+cg0751	hypothetical protein
+cg0752	flotillin-like protein
+cg0753	hypothetical protein
+cg0754	homoserine O-acetyltransferase
+cg0755	O-acetylhomoserine aminocarboxypropyltransferase
+cg0756	carbon starvation protein, membrane protein
+0	hypothetical protein
+0	hypothetical protein
+cg0760	PEP phosphonomutase or related enzyme
+cg0762	methylcitrate synthase
+cg0763	malate/L-lactate dehydrogenase
+cg0764	transcriptional regulator
+cg0765	hypothetical protein
+cg0766	monomeric isocitrate dehydrogenase (NADP+)
+cg0767	hypothetical protein
+cg0768	ABC-type transporter, ATPase component
+cg0769	ABC-type transporter, permease component
+cg0770	ABC-type transporter, permease component
+cg0771	ABC-type transporter, periplasmic component
+cg0772	arabinose efflux permease
+cg0773	exonuclease III
+cg0774	hypothetical protein
+cg0775	hypothetical protein
+cg0776	ABC-type transporter, periplasmic component
+cg0777	ABC-type transporter, ATPase component
+cg0778	ABC-type transporter, permease component
+cg0779	tryptophanyl-tRNA synthetase
+cg0780	hypothetical protein
+cg0781	hypothetical protein
+cg0782	D-alanyl-D-alanine carboxypeptidase
+cg0783	hypothetical protein
+cg0784	hypothetical protein
+cg0785	hypothetical protein
+cg0786	uracil phosphoribosyltransferase
+cg0787	transcriptional regulator
+cg0788	phosphomannomutase
+cg0789	metal-dependent amidase/aminoacylase/carboxypeptidase
+cg0790	flavoprotein disulfide reductase
+cg0791	pyruvate carboxylase
+cg0792	hypothetical protein
+cg0793	hypothetical protein
+cg0794	G3E family GTPase
+cg0795	thioredoxin reductase
+cg0796	hypothetical protein
+cg0797	PEP phosphonomutase or related enzyme
+cg0798	methylcitrate synthase
+cg0799	hypothetical protein
+cg0800	transcriptional regulator
+cg0801	hypothetical protein
+cg0802	acyl-CoA carboxylase
+cg0803	thiosulfate sulfurtransferase
+cg0806	hypothetical protein
+cg0807	hypothetical protein
+cg0808	acyltransferase
+cg0809	Maf-like protein
+cg0810	hypothetical protein
+cg0811	detergent sensitivity rescuer dtsR2
+cg0812	detergent sensitivity rescuer dtsR1
+cg0814	biotin--protein ligase
+cg0815	hypothetical protein
+cg0816	phosphoribosylaminoimidazole carboxylase ATPase subunit
+cg0817	K+ transporter
+cg0819	hypothetical protein
+cg0820	phosphoribosylaminoimidazole carboxylase catalytic subunit
+cg0821	hypothetical protein
+cg0822	hypothetical protein
+cg0823	nitrilotriacetate monooxygenase
+0	putative transposase
+cg0825	3-ketoacyl-(acyl-carrier-protein) reductase
+cg0826	hypothetical protein
+cg0828	hypothetical protein
+cg0829	hypothetical protein
+cg0830	hypothetical protein
+cg0831	ABC-type transporter, permease component
+cg0832	ABC-type transporter, permease component
+cg0833	hypothetical protein
+cg0834	ABC-type transporter, periplasmic component
+cg0835	ABC-type transporter, ATPase component
+cg0836	hypothetical protein
+cg0838	helicase family protein
+cg0839	hypothetical protein
+cg0840	hypothetical protein
+cg0841	hypothetical protein
+cg0842	putative helicase
+cg0843	putative helicase
+cg0844	type II restriction enzyme, methylase subunits
+cg0845	SNF2 family helicase
+cg0847	transcriptional regulator
+cg0848	glycosyltransferase
+cg0849	nucleoside-diphosphate-sugar pyrophosphorylase
+cg0850	hypothetical protein
+cg0852	hypothetical protein
+cg0853	hypothetical protein
+cg0854	phosphomannomutase/phosphoglucomutase
+cg0855	hypothetical protein
+cg0856	phosphomannose isomerase
+cg0858	hypothetical protein
+cg0859	hypothetical protein
+cg0860	S-adenosyl-L-homocysteine hydrolase
+cg0861	thymidylate kinase
+cg0862	two-component system response regulator
+cg0864	two-component system sensory transduction histidine kinase
+cg0865	lipoprotein LpqB
+cg0866	hypothetical protein
+cg0867	ribosome-associated protein Y
+cg0868	preprotein translocase subunit SecA
+cg0870	hypothetical protein
+cg0871	hypothetical protein
+cg0872	hypothetical protein
+cg0873	3-phosphoshikimate 1-carboxyvinyltransferase
+cg0874	hypothetical protein
+cg0875	hypothetical protein
+cg0876	RNA polymerase sigma factor RpoE
+cg0878	hypothetical protein
+cg0879	hypothetical protein
+cg0880	hypothetical protein
+cg0881	putative helicase
+cg0882	hypothetical protein
+cg0883	hypothetical protein
+cg0884	hypothetical protein
+cg0885	putative helicase
+cg0886	putative helicase
+cg0887	NAD-binding component of Kef-type K+ transport system
+cg0888	NTP pyrophosphohydrolase
+cg0889	putative helicase
+cg0890	hypothetical protein
+cg0891	hypothetical protein
+cg0892	hypothetical protein
+cg0893	hypothetical protein
+cg0894	hypothetical protein
+cg0895	hypothetical protein
+cg0896	hypothetical protein
+cg0897	transcriptional regulator
+cg0898	pyridoxine biosynthesis protein
+cg0899	glutamine amidotransferase subunit PdxT
+cg0900	hypothetical protein
+cg0901	hypothetical protein
+cg0902	hypothetical protein
+cg0903	hypothetical protein
+cg0905	hypothetical protein
+cg0906	hypothetical protein
+cg0907	hypothetical protein
+cg0908	hypothetical protein
+cg0909	hypothetical protein
+cg0910	fructose-1,6-bisphosphatase
+cg0911	fructose-1,6-bisphosphatase
+cg0913	peptide chain release factor 2
+cg0914	cell-division ATP-binding protein
+cg0915	cell division protein
+cg0916	SsrA-binding protein
+cg0918	hypothetical protein
+cg0919	hypothetical protein
+cg0921	siderophore-interacting protein
+cg0922	ABC-type cobalamin/Fe3+-siderophore transport system, periplasmic component
+cg0923	hypothetical protein
+cg0924	ABC-type cobalamin/Fe3+-siderophore transport system, periplasmic component
+cg0926	ABC-type cobalamin/Fe3+-siderophore transport system, permease component
+cg0927	ABC-type cobalamin/Fe3+-siderophore transport system, permease component
+cg0928	ABC-type cobalamin/Fe3+-siderophore transport system, ATPase component
+cg0931	aminotransferase
+cg0932	hypothetical protein
+cg0933	putative helicase
+cg0934	hypothetical protein
+cg0935	hypothetical protein
+cg0936	hypothetical protein
+cg0938	cold shock protein
+cg0939	hypothetical protein
+cg0940	glutamine cyclotransferase
+cg0941	hypothetical protein
+cg0944	permease
+cg0945	rRNA methylase
+cg0946	hypothetical protein
+cg0947	hypothetical protein
+cg0948	phosphoserine aminotransferase
+cg0949	type II citrate synthase
+cg0950	FKBP-type peptidyl-prolyl cis-trans isomerase 1
+cg0951	acetyl-CoA carboxylase beta subunit
+cg0952	uncharacterized membrane protein
+cg0953	Na+/proline, Na+/panthothenate symporter or related permease
+cg0954	hypothetical protein
+cg0955	hypothetical protein
+cg0957	fatty-acid synthase
+cg0958	hypothetical protein
+cg0960	hypothetical protein
+cg0961	hypothetical protein
+cg0962	hypothetical protein
+#N/A	hypothetical protein
+cg0964	hypothetical protein
+cg0965	dihydrofolate reductase
+cg0966	thymidylate synthase
+cg0967	inositol monophosphatase family protein
+cg0968	Lhr-like helicase
+cg0969	formamidopyrimidine-DNA glycosylase
+cg0970	hypothetical protein
+cg0971	hypothetical protein
+cg0972	cyanate permease
+cg0973	glucose-6-phosphate isomerase
+cg0974	hypothetical protein
+cg0975	hypothetical protein
+cg0976	helicase
+cg0977	ABC-type transporter, permease component
+cg0978	ABC-type transporter, ATPase component
+cg0979	transcriptional regulator
+cg0980	metalloendopeptidase-like membrane protein
+cg0982	hypothetical protein
+cg0983	phosphoribosylglycinamide formyltransferase
+cg0984	bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase
+cg0985	citrate lyase beta subunit
+cg0986	transcriptional regulator
+cg0987	hypothetical protein
+cg0988	30S ribosomal protein S18
+cg0989	30S ribosomal protein S14
+cg0990	50S ribosomal protein L33
+cg0991	50S ribosomal protein L28
+cg0992	sulfate permease
+cg0993	transcriptional regulator
+cg0994	50S ribosomal protein L31 type B
+cg0995	50S ribosomal protein L32
+cg0996	two-component system, response regulator
+cg0997	two-component system, sensory transduction histidine kinase
+cg0998	trypsin-like serine protease
+cg0999	molybdopterin biosynthesis enzyme
+cg1001	large-conductance mechanosensitive channel
+cg1002	hypothetical protein
+cg1003	5-formyltetrahydrofolate cyclo-ligase
+cg1004	UDP-glucose pyrophosphorylase
+cg1005	molybdopterin biosynthesis enzyme
+cg1006	putative acetyltransferase
+cg1007	hypothetical protein
+cg1009	cyanate permease
+cg1010	hypothetical protein
+cg1011	hypothetical protein
+cg1012	glycosidase
+cg1014	dolichyl-phosphate-mannose--protein O-mannosyl transferase PMT1
+cg1015	methyltransferase
+cg1016	choline-glycine betaine transporter
+cg1017	methionyl-tRNA synthetase
+cg1018	putative helicase
+cg1019	hypothetical protein
+cg1020	hypothetical protein
+cg1021	hypothetical protein
+0	hypothetical protein
+cg1031	hypothetical protein
+cg1024	hypothetical protein
+cg1027	D-lactate dehydrogenase
+cg1028	adenine specific DNA methylase Mod
+cg1030	hypothetical protein
+0	hypothetical protein
+cg1032	ArsR family transcriptional regulator
+cg1033	hypothetical protein
+cg1035	Mg-dependent DNase
+cg1037	hypothetical protein
+cg1038	dimethyladenosine transferase
+cg1039	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase
+cg1040	ABC-type transporter
+cg1041	pyridoxal/pyridoxine/pyridoxamine kinase
+cg1043	hypothetical protein
+cg1044	hypothetical protein
+cg1045	hypothetical protein
+cg1046	hypothetical protein
+cg1048	hypothetical protein
+cg1049	enoyl-CoA hydratase
+cg1050	hypothetical protein
+cg1051	hypothetical protein
+cg1052	hypothetical protein
+cg1053	transcriptional regulator
+cg1054	RND superfamily drug exporter
+cg1055	ribonuclease activity regulator protein RraA
+cg1056	hypothetical protein
+cg1057	hypothetical protein
+cg1059	hypothetical protein
+cg1060	peptide chain release factor 3
+cg1061	ABC-type transporter, periplasmic component
+cg1062	ABC-type transporter, permease component
+cg1064	ABC-type transporter, permease component
+cg1065	ABC-type transporter, ATPase component
+cg1066	ABC-type transporter, ATPase component
+cg1067	peptidyl-tRNA hydrolase
+cg1068	dioxygenase
+cg1069	glyceraldehyde-3-phosphate dehydrogenase
+cg1071	peptidyl-tRNA hydrolase
+cg1072	50S ribosomal protein L25/general stress protein Ctc
+cg1073	lactoylglutathione lyase
+cg1074	hypothetical protein
+cg1075	ribose-phosphate pyrophosphokinase
+cg1076	N-acetylglucosamine-1-phosphate uridyltransferase
+cg1077	hypothetical protein
+cg1080	putative multicopper oxidase
+cg1081	ABC-type transporter, ATPase component
+cg1082	hypothetical protein
+cg1083	two-component system sensory transduction histidine kinase
+cg1084	two-component system, response regulator
+cg1086	hypothetical protein
+#N/A	putative ABC transporter ATPase component
+cg1089	ABC-type transporter, ATPase component and permease component
+cg1090	gamma-glutamyltranspeptidase
+cg1091	hypothetical protein
+cg1092	hypothetical protein
+0	transposase
+cg1095	hypothetical protein
+cg1096	hypothetical protein
+cg1097	hypothetical protein
+cg1098	transcriptional regulator
+cg1099	transcription-repair coupling factor
+cg1100	ABC-type transporter, ATP-binding component
+cg1101	ABC-type transporter, ATPase component
+cg1103	hypothetical protein
+cg1104	hypothetical protein
+cg1105	amino acid permease
+cg1106	hypothetical protein
+cg1107	hypothetical protein
+cg1108	hypothetical protein
+cg1109	hypothetical protein
+cg1110	hypothetical protein
+cg1111	phosphopyruvate hydratase
+cg1112	hypothetical protein
+cg1113	hypothetical protein
+cg1115	exopolyphosphatase
+cg1116	threonine dehydratase
+cg1117	hypothetical protein
+cg1118	pyrimidine reductase
+cg1119	putative stress-responsive transcriptional regulator
+cg1120	AraC-type DNA-binding domain-containing protein
+cg1121	hypothetical protein
+cg1122	hypothetical protein
+cg1123	transcription elongation factor GreA
+cg1125	hypothetical protein
+cg1127	hypothetical protein
+cg1128	hypothetical protein
+cg1129	phospho-2-dehydro-3-deoxyheptonate aldolase
+cg1130	undecaprenyl pyrophosphate synthase
+cg1131	hypothetical protein
+cg1132	pantothenate kinase
+cg1133	serine hydroxymethyltransferase
+cg1134	anthranilate/para-aminobenzoate synthase component I
+cg1135	hypothetical protein
+cg1136	hypothetical protein
+cg1137	hypothetical protein
+cg1138	sortase or related acyltransferase
+cg1139	allophanate hydrolase subunit 2
+#N/A	allophanate hydrolase subunit 1
+cg1141	hypothetical protein
+cg1142	hypothetical protein
+0	hypothetical protein
+cg1143	gntR family transcriptional regulator
+cg1144	hypothetical protein
+cg1145	fumarate hydratase
+cg1147	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+cg1150	hypothetical protein
+cg1151	putative reductase
+cg1152	acyl-CoA dehydrogenase
+cg1153	acyl-CoA dehydrogenase
+cg1156	coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase
+cg1157	fructose 1,6-bisphosphatase II
+cg1158	hypothetical protein
+cg1159	hypothetical protein
+cg1160	hypothetical protein
+cg1162	exodeoxyribonuclease VII small subunit
+cg1163	exodeoxyribonuclease VII large subunit
+cg1164	4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+cg1165	hypothetical protein
+cg1166	hypothetical protein
+cg1167	hypothetical protein
+cg1169	SNF family Na(+)-dependent transporter
+cg1170	hypothetical protein
+cg1171	translation-associated GTPase
+cg1173	plasmid maintenance system antidote protein
+cg1174	ornithine carbamoyltransferase
+cg1175	acetyltransferase
+cg1176	dehydrogenase
+cg1178	transposase
+cg1179	GGDEF family protein
+cg1181	hypothetical protein
+cg1182	hypothetical protein
+#N/A	hypothetical protein
+cg1184	hypothetical protein
+cg1185	hypothetical protein
+cg1187	hypothetical protein
+cg1190	hypothetical protein
+cg1191	hypothetical protein
+cg1192	aldo/keto reductase
+cg1193	hypothetical protein
+cg1194	nucleoside-diphosphate-sugar epimerase
+cg1195	putative sulfate permease
+cg1197	hypothetical protein
+cg1198	hypothetical protein
+cg1199	hypothetical protein
+cg1201	hypothetical protein
+cg1202	hypothetical protein
+cg1203	Mg-chelatase subunit ChlI
+cg1204	phosphoglycerate mutase
+cg1205	hypothetical protein
+cg1206	putative PEP phosphonomutase
+cg1207	ABC-type transporter, duplicated ATPase component
+cg1208	hypothetical protein
+cg1209	hypothetical protein
+cg1211	transcriptional regulator
+cg1212	major facilitator superfamily permease
+0	transposase
+cg1214	cysteine sulfinate desulfinase
+cg1215	nicotinate-nucleotide pyrophosphorylase
+cg1216	quinolinate synthetase
+cg1218	ADP-ribose pyrophosphatase
+cg1219	hypothetical protein
+cg1220	hypothetical protein
+cg1221	hypothetical protein
+cg1222	lipoate-protein ligase A
+cg1224	hypothetical protein
+cg1225	major facilitator superfamily permease
+cg1226	4-hydroxybenzoate 3-monooxygenase
+cg1227	hypothetical protein
+cg1228	ABC-type transporter, duplicated ATPase component
+cg1229	ABC-type transporter, permease component
+cg1230	hypothetical protein
+cg1231	Ca2+/H+ antiporter
+cg1232	hypothetical protein
+cg1233	hypothetical protein
+cg1234	excinuclease ATPase subunit
+cg1236	peroxiredoxin
+cg1237	hypothetical protein
+cg1238	hypothetical protein
+cg1239	2-dehydropantoate 2-reductase
+cg1240	hypothetical protein
+cg4004	hypothetical protein
+cg1242	hypothetical protein
+cg1243	hypothetical protein
+cg1244	arsenate reductase
+cg1245	hypothetical protein
+cg1246	hypothetical protein
+cg1247	hypothetical protein
+cg1248	membrane GTPase involved in stress response
+cg1249	ABC-type transporter, periplasmic component
+cg1250	hypothetical protein
+cg1251	hypothetical protein
+cg1252	ferredoxin 3
+cg1253	N-succinyldiaminopimelate aminotransferase
+cg1254	hypothetical protein
+cg1255	hypothetical protein
+cg1256	tetrahydrodipicolinate N-succinyltransferase
+cg1257	gamma-aminobutyrate permease
+cg1259	tetrahydrodipicolinate N-succinyltransferase
+cg1260	dipeptidase
+cg1261	Rossmann fold nucleotide-binding protein
+cg1262	putative dihydropteroate synthase
+cg1263	glycosyltransferase
+cg1264	hypothetical protein
+cg1265	hypothetical protein
+cg1266	SAM-dependent methyltransferase
+cg1267	beta-fructosidase
+cg1268	glycosyltransferase
+cg1269	glucose-1-phosphate adenylyltransferase
+cg1270	hypothetical protein
+cg1271	RNA polymerase sigma factor SigE
+cg1272	hypothetical protein
+cg1273	sec-independent translocase
+cg1274	ATPase
+cg1275	hypothetical protein
+cg1276	Mg/Co/Ni transporter MgtE
+cg1277	hypothetical protein
+cg1278	hypothetical protein
+cg1279	hypothetical protein
+cg1280	alpha-ketoglutarate decarboxylase
+cg1281	ABC-type transporter, duplicated ATPase component
+cg1282	hypothetical protein
+cg1283	shikimate 5-dehydrogenase
+cg1284	carboxylesterase type B
+cg1285	hypothetical protein
+cg1286	hypothetical protein
+cg1287	hypothetical protein
+cg1288	major facilitator superfamily permease
+cg1289	major facilitator superfamily permease
+cg1290	5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase
+cg1291	hypothetical protein
+cg1292	K+ transport flavoprotein
+cg1293	hypothetical protein
+cg1294	alpha-beta hydrolase family esterase
+cg1295	hydrolase
+cg1296	non-ribosomal peptide synthetase modules and related proteins
+cg1298	ABC-type transporter, ATPase component and permease component
+cg1299	ABC-type transporter, ATPase component and permease component
+cg1300	cytochrome bd-type quinol oxidase, subunit 2
+cg1301	cytochrome bd-type quinol oxidase, subunit 1
+cg1302	putative helicase
+cg1303	putative mutT-like protein
+cg1304	hypothetical protein
+cg1305	putative gamma-aminobutyrate permease
+cg1307	putative helicase
+cg1308	transcriptional regulator
+cg1309	3-(3-hydroxyphenyl)propionate hydroxylase
+cg1310	alcohol dehydrogenase IV
+cg1311	protocatechuate 3,4-dioxygenase beta subunit
+cg1312	hypothetical protein
+cg1313	hypothetical protein
+cg1314	putative Na+/proline, Na+/panthothenate symporter
+cg1316	putative helicase
+cg1317	hypothetical protein
+cg1318	DNA repair exonuclease
+cg1319	ATPase involved in DNA repair
+cg1320	esterase/lipase
+cg1321	short chain fatty acids transporter
+cg1322	hypothetical protein
+cg1324	transcriptional regulator
+cg1325	hypothetical protein
+cg1326	hypothetical protein
+cg1327	catabolite gene activator
+cg1328	copper chaperone
+cg1329	cation transport ATPase
+cg1330	hypothetical protein
+cg1332	hydrolase or acyltransferase
+cg1333	arginyl-tRNA synthetase
+cg1334	diaminopimelate decarboxylase
+cg1335	hypothetical protein
+cg1336	hypothetical protein
+cg1337	homoserine dehydrogenase
+cg1338	homoserine kinase
+cg1340	hypothetical protein
+cg1341	nitrate reductase gamma subunit
+cg1342	nitrate reductase delta subunit
+cg1343	nitrate reductase beta chain
+cg1344	anaerobic dehydrogenase
+cg1345	nitrate/nitrite transporter
+cg1346	molybdopterin biosynthesis enzyme
+cg1347	serine protease
+cg1348	hypothetical protein
+cg1349	hypothetical protein
+cg1350	molybdopterin-guanine dinucleotide biosynthesis protein A
+cg1351	molybdopterin biosynthesis enzyme
+cg1352	molybdenum cofactor biosynthesis protein A
+cg1353	acyl-CoA synthetase
+cg1354	transcription termination factor Rho
+cg1355	peptide chain release factor 1
+cg1356	rRNA or tRNA methylase
+cg1358	putative translation factor (SUA5)
+cg1359	UDP-N-acetylmuramyl pentapeptide phosphotransferase
+cg1360	hypothetical protein
+cg1361	hypothetical protein
+cg1362	F0F1 ATP synthase subunit A
+cg1363	F0F1 ATP synthase subunit C
+cg1364	F0F1 ATP synthase subunit B
+cg1365	F0F1 ATP synthase subunit delta
+cg1366	F0F1 ATP synthase subunit alpha
+cg1367	F0F1 ATP synthase subunit gamma
+cg1368	F0F1 ATP synthase subunit beta
+cg1369	F0F1 ATP synthase subunit epsilon
+cg1370	hypothetical protein
+cg1371	hypothetical protein
+cg1372	hypothetical protein
+cg1373	lactoylglutathione lyase
+cg1374	hypothetical protein
+cg1375	thioredoxin domain-containing protein
+cg1376	coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase
+cg1377	ABC-type transporter, permease component
+cg1379	ABC-type transporter, ATPase component
+cg1380	ABC-type transporter, periplasmic component
+cg1381	glycogen branching enzyme
+cg1382	glycosidase
+cg1383	ABC-type transporter, ATPase component
+cg1384	hypothetical protein
+cg1385	hypothetical protein
+cg1386	electron transfer flavoprotein beta-subunit
+cg1387	electron transfer flavoprotein alpha-subunit
+cg1388	cysteine sulfinate desulfinase
+cg1389	hypothetical protein
+cg1391	uncharacterized protein related to capsule biosynthesis enzyme
+cg1392	transcriptional regulator
+cg1393	acetyltransferase
+cg1394	spermidine synthase
+cg1395	hypothetical protein
+cg1396	hypothetical protein
+cg1397	tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase
+cg1398	hypothetical protein
+cg1399	major facilitator superfamily permease
+cg1400	DNA polymerase III subunit epsilon
+cg1401	NAD-dependent DNA ligase LigA
+cg1402	hypothetical protein
+cg1403	aspartyl/glutamyl-tRNA amidotransferase subunit C
+cg1404	aspartyl/glutamyl-tRNA amidotransferase subunit A
+cg1405	siderophore-interacting protein
+cg1408	hypothetical protein
+cg1409	6-phosphofructokinase
+cg1410	transcriptional regulator
+cg1411	ABC-type transporter, duplicated ATPase component
+cg1412	ABC-type transporter, permease component
+cg1413	ABC-type transporter, periplasmic component
+cg1414	D-ribose pyranase
+cg1417	acetyltransferase
+cg1418	ABC-type transport system, periplasmic component
+cg1419	Na+-dependent transporter
+cg1420	aspartyl/glutamyl-tRNA amidotransferase subunit B
+cg1421	dinucleotide-binding protein
+cg1423	oxidoreductase
+cg1424	lysine efflux permease
+cg1425	chromosome replication initiation inhibitor protein
+cg1426	glutathione S-transferase
+cg1427	hypothetical protein
+cg1429	hypothetical protein
+cg1432	dihydroxy-acid dehydratase
+cg1433	hypothetical protein
+cg1434	small-conductance mechanosensitive channel
+cg1435	acetolactate synthase 1 catalytic subunit
+cg1436	acetolactate synthase 3 regulatory subunit
+cg1437	ketol-acid reductoisomerase
+cg1438	ABC-type transport system ATPase component
+0	hypothetical protein
+cg1440	ABC-type transport system ATPase component
+cg1441	ABC-type transport system periplasmic component
+cg1442	hypothetical protein
+#N/A	hypothetical protein
+cg1444	hypothetical protein
+cg1447	Co/Zn/Cd efflux system component
+cg1448	hypothetical protein
+cg1449	hypothetical protein
+cg1451	D-3-phosphoglycerate dehydrogenase
+cg1452	hypothetical protein
+cg1453	3-isopropylmalate dehydrogenase
+cg1454	ABC-type transport system periplasmic component
+cg1456	signal-transduction protein
+cg1457	DNA polymerase III epsilon subunit
+cg1458	2-keto-4-pentenoate hydratase/2-oxohepta-3-ene-1,7-dioic acid hydratase
+cg1459	SAM-dependent methyltransferase
+cg1462	isochorismate synthase
+cg1463	glutamyl-tRNA synthetase
+cg1464	transcriptional regulator
+cg1465	hypothetical protein
+cg1466	hypothetical protein
+cg1467	transcriptional regulator
+cg1468	hypothetical protein
+cg1469	hypothetical protein
+cg1474	hypothetical protein
+cg1475	hypothetical protein
+cg1476	thiamine biosynthesis protein ThiC
+cg1478	hypothetical protein
+cg1479	glucan phosphorylase
+#N/A	hypothetical protein
+cg1482	Zn-dependent hydrolase
+cg1483	hypothetical protein
+cg1484	hypothetical protein
+cg1485	guanosine polyphosphate pyrophosphohydrolase/synthetase
+cg1486	transcriptional regulator
+cg1487	isopropylmalate isomerase large subunit
+cg1488	isopropylmalate isomerase small subunit
+cg1490	NTP pyrophosphohydrolase
+#N/A	hypothetical protein
+cg1492	NAD(P)H-dependent glycerol-3-phosphate dehydrogenase
+cg1493	D-alanyl-alanine synthetase A
+cg1494	hypothetical protein
+cg1495	thiamine monophosphate kinase
+cg1496	uracil-DNA glycosylase
+cg1497	kinase
+cg1498	RecG-like helicase
+cg1499	pyruvate carboxylase C-terminal domain-containing protein
+cg1500	N6-adenine-specific methylase
+cg1501	phosphopantetheine adenylyltransferase
+cg1502	ABC-type transporter, ATPase component
+cg1503	ABC-type transporter, permease component
+cg1504	ABC-type transporter, periplasmic component
+cg1505	hypothetical protein
+cg1506	hypothetical protein
+cg1507	integrase
+0	hypothetical protein
+cg1509	hypothetical protein
+cg1510	hypothetical protein
+cg1511	hypothetical protein
+cg1512	hypothetical protein
+cg1513	hypothetical protein
+cg4005	hypothetical protein
+cg1514	hypothetical protein
+cg1516	hypothetical protein
+cg1517	hypothetical protein
+cg4006	hypothetical protein
+cg1519	hypothetical protein
+cg1520	hypothetical protein
+cg1521	hypothetical protein
+cg1522	hypothetical protein
+cg1523	hypothetical protein
+cg1524	hypothetical protein
+cg1525	DNA polymerase I
+cg1526	major facilitator superfamily permease
+cg1527	transcriptional regulator
+cg1528	aldo/keto reductase
+cg1530	SAM-dependent methyltransferase
+cg1531	30S ribosomal protein S1
+cg1537	phosphotransferase system IIC component, glucose/maltose/N-acetylglucosamine-specific
+cg1538	dephospho-CoA kinase
+cg1540	hypothetical protein
+cg1541	hypothetical protein
+cg1543	inosine-uridine nucleoside N-ribohydrolase
+cg1545	major facilitator superfamily permease
+cg1546	sugar kinase
+cg1547	transcriptional regulator
+cg1548	hypothetical protein
+cg1549	hypothetical protein
+cg1550	excinuclease ABC subunit B
+cg1551	universal stress protein UspA
+cg1552	transcriptional regulator
+cg1553	nucleoside-diphosphate-sugar epimerase
+cg1555	hypothetical protein
+cg1556	hypothetical protein
+cg1559	hypothetical protein
+cg1560	excinuclease ABC subunit A
+cg1562	hypothetical protein
+cg1563	translation initiation factor IF-3
+cg1564	50S ribosomal protein L35
+cg1565	50S ribosomal protein L20
+cg1566	hypothetical protein
+cg1567	hypothetical protein
+cg1568	ABC-type transporter, permease component
+cg1569	ABC-type transporter, permease component
+cg1570	ABC-type transporter, periplasmic component
+cg1571	ABC-type transporter, ATPase component
+cg1572	glycerophosphoryl diester phosphodiesterase
+cg1573	rRNA methylase
+cg1574	phenylalanyl-tRNA synthetase subunit alpha
+cg1575	phenylalanyl-tRNA synthetase subunit beta
+cg1577	hypothetical protein
+cg1578	acyltransferase
+cg1579	hypothetical protein
+cg1580	N-acetyl-gamma-glutamyl-phosphate reductase
+cg1581	bifunctional ornithine acetyltransferase/N-acetylglutamate synthase protein
+cg1582	acetylglutamate kinase
+cg1583	acetylornithine aminotransferase
+cg1584	ornithine carbamoyltransferase
+cg1585	arginine repressor
+cg1586	argininosuccinate synthase
+cg1588	argininosuccinate lyase
+cg1589	hypothetical protein
+cg1590	hypothetical protein
+cg1591	hypothetical protein
+cg1592	hypothetical protein
+cg1594	tyrosyl-tRNA synthetase
+cg1595	universal stress protein UspA
+cg1597	TPR repeat-containing protein
+cg1598	HAD family sugar phosphatase
+#N/A	hypothetical protein
+cg1600	rRNA methylase
+cg1601	inorganic polyphosphate/ATP-NAD kinase
+cg1602	ATPase involved in DNA repair
+cg1603	hypothetical protein
+cg1604	hypothetical protein
+cg1606	CTP synthetase
+cg1607	NTP pyrophosphohydrolase
+cg1608	site-specific tyrosine recombinase XerD
+cg1609	ABC-type transporter, duplicated ATPase component
+cg1610	ATPase involved in chromosome partitioning
+cg1611	hypothetical protein
+cg1612	acetyltransferase
+cg1613	rhodanese-related sulfurtransferase
+cg1614	hypothetical protein
+cg1615	16S rRNA uridine-516 pseudouridylate synthase
+cg1616	cytidylate kinase
+cg1617	GTP-binding protein EngA
+cg1618	hypothetical protein
+cg1619	hypothetical protein
+cg1620	SAM-dependent methyltransferase
+cg1621	ABC-type transport system, ATPase component
+cg1622	ABC-type transport system ATPase component
+cg1623	zinc transporter ZupT
+cg1624	NhaP-type Na+/H+ and K+/H+ antiporter
+cg1625	hypothetical protein
+cg1626	hypothetical protein
+cg1628	alpha/beta fold family hydrolase
+cg1629	preprotein translocase subunit SecA
+cg1630	FHA-domain-containing protein
+cg1631	hypothetical protein
+cg1632	hypothetical protein
+cg1633	transcriptional regulator
+cg1635	hypothetical protein
+cg1636	hypothetical protein
+cg1638	hypothetical protein
+cg1639	CBS domain-containing protein
+cg1640	CBS domain-containing protein
+cg1641	putative helicase
+cg1642	siderophore-interacting protein
+cg1643	6-phosphogluconate dehydrogenase
+cg1644	hypothetical protein
+cg1645	SAM-dependent methyltransferase
+cg1646	ABC-type transporter, ATPase component
+cg1647	ABC-type transporter, permease component
+cg1648	transcriptional regulator
+cg1649	ABC-type transporter, permease component
+cg1650	ABC-type transporter, permease component
+cg1651	ABC-type transporter, ATPase component
+cg1652	ABC-type transporter, periplasmic component
+cg1653	hypothetical protein
+cg1654	multifunctional thiamine-phosphate pyrophosphorylase/synthase/phosphomethylpyrimidine kinase
+cg1655	hydroxyethylthiazole kinase
+cg1656	NADH dehydrogenase, FAD-containing subunit
+cg1657	cyclopropane fatty acid synthase
+cg1658	major facilitator superfamily permease
+cg1659	phosphoribosyltransferase
+cg1660	hypothetical protein
+cg1661	arsenite efflux pump ACR3
+cg1662	hypothetical protein
+cg1663	hypothetical protein
+cg1664	sulfate permease
+cg1665	hypothetical protein
+cg1668	hypothetical protein
+cg1669	hypothetical protein
+cg1670	hypothetical protein
+cg1671	hypothetical protein
+cg1672	glycosyltransferase
+cg1673	apolipoprotein N-acyltransferase
+cg1675	FxsA
+cg1676	hypothetical protein
+cg1677	hypothetical protein
+cg1678	precorrin-6B methylase 1
+cg1680	hypothetical protein
+cg1681	Xaa-Pro aminopeptidase
+cg1682	hypothetical protein
+cg1683	putative helicase
+cg1684	Sec-independent protein secretion pathway component TatC
+cg1685	twin argininte translocase protein A
+cg1686	transcriptional regulator
+cg1687	transcriptional regulator
+cg1688	hypothetical protein
+cg1689	hypothetical protein
+cg1690	hypothetical protein
+cg1691	ATPase of the AAA+ class
+cg1692	SAM-dependent methyltransferase involved in tRNA-Met maturation
+cg1693	putative aminopeptidase 2
+cg1694	endonuclease
+cg1695	plasmid maintenance system antidote protein
+cg1696	major facilitator superfamily permease
+cg1697	aspartate ammonia-lyase
+cg1698	ATP phosphoribosyltransferase
+cg1699	phosphoribosyl-ATP pyrophosphatase
+cg1700	phosphatase/phosphohexomutase
+cg1701	methionine synthase I cobalamin-binding subunit
+cg1702	hypothetical protein
+cg1703	K+ transport flavoprotein
+cg1705	arsenite efflux pump ACR3
+#N/A	protein-tyrosine-phosphatase
+cg1707	protein-tyrosine-phosphatase
+cg1708	hypothetical protein
+cg1709	cysteinyl-tRNA synthetase
+cg1710	undecaprenyl pyrophosphate phosphatase
+cg1711	oxidoreductase
+cg1712	hypothetical protein
+cg1713	dihydroorotate dehydrogenase 2
+cg1714	hypothetical protein
+cg1715	hypothetical protein
+cg1716	putative transposase
+cg1717	hypothetical protein
+cg1718	phospholipid-binding protein
+cg1719	ABC-type transporter, ATPase component and permease component
+cg1720	ABC-type transporter, ATPase component and permease component
+cg1722	histone acetyltransferase HPA2 and related acetyltransferase
+cg1724	arginine/ornithine transport system ATPase
+cg1725	methylmalonyl-CoA mutase
+cg1726	methylmalonyl-CoA mutase N-terminal domain-containing protein
+cg1727	hypothetical protein
+cg1728	hypothetical protein
+cg1730	membrane protease subunit
+cg1731	membrane protein
+cg1732	hypothetical protein
+cg1733	hypothetical protein
+cg1734	ferrochelatase
+cg1735	cell wall-associated hydrolase
+cg1736	hypothetical protein
+cg1737	aconitate hydratase
+cg1738	transcriptional regulator
+cg1739	glutamine amidotransferase
+cg1740	nucleoside-diphosphate-sugar epimerase
+cg1742	hypothetical protein
+cg1743	hypothetical protein
+cg1744	cation transport ATPase
+cg1745	hypothetical protein
+cg1746	hypothetical protein
+cg1750	hypothetical protein
+cg1752	integrase
+cg1753	ABC-type transporter, duplicated ATPase component
+cg1754	hypothetical protein
+cg1756	hypothetical protein
+cg1757	transposase
+cg1758	hypothetical protein
+cg1759	putative aromatic ring hydroxylating enzyme
+cg1760	NifU-like protein
+cg1761	selenocysteine lyase
+cg1762	ABC-type transporter, ATPase component
+cg1763	iron-regulated ABC-type transporter SufB
+cg1764	iron-regulated ABC-type transporter SufB
+cg1765	transcriptional regulator
+cg1766	hypothetical protein
+cg1767	ABC-type transporter, ATPase component
+cg1768	ABC-type transporter, permease component
+cg1769	cytochrome oxidase assembly protein
+cg1770	putative helicase
+cg1771	NADPH:quinone reductase
+cg1773	protoheme IX farnesyltransferase
+cg1774	transketolase
+cg1776	transaldolase
+cg1778	glucose-6-phosphate 1-dehydrogenase
+cg1779	hypothetical protein
+cg1780	6-phosphogluconolactonase
+cg1781	hypothetical protein
+0	hypothetical protein
+cg1783	glycine/D-amino acid oxidase
+cg1784	ornithine cyclodeaminase
+cg1785	ammonia permease
+cg1786	preprotein translocase subunit SecG
+cg1787	phosphoenolpyruvate carboxylase
+cg1789	triosephosphate isomerase
+cg1790	phosphoglycerate kinase
+cg1791	glyceraldehyde-3-phosphate dehydrogenase
+cg1792	hypothetical protein
+cg1793	hypothetical protein
+cg1794	hypothetical protein
+cg1795	excinuclease ABC subunit C
+cg1796	hypothetical protein
+cg1797	riboflavin synthase subunit beta
+cg1798	bifunctional 3,4-dihydroxy-2-butanone 4-phosphate synthase/GTP cyclohydrolase II protein
+cg1799	riboflavin synthase subunit alpha
+cg1800	pyrimidine reductase
+cg1801	ribulose-phosphate 3-epimerase
+cg1802	tRNA and rRNA cytosine-C5-methylase
+cg1803	methionyl-tRNA formyltransferase
+cg1804	peptide deformylase
+cg1805	primosome assembly protein PriA
+cg1806	S-adenosylmethionine synthetase
+cg1807	bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate synthase
+cg1809	DNA-directed RNA polymerase subunit omega
+cg1810	guanylate kinase
+cg1811	hypothetical protein
+cg1812	orotidine 5'-phosphate decarboxylase
+cg1813	carbamoyl phosphate synthase large subunit
+cg1814	carbamoyl phosphate synthase small subunit
+cg1815	dihydroorotase
+cg1816	aspartate carbamoyltransferase catalytic subunit
+cg1817	pyrimidine regulatory protein PyrR
+cg1819	SulA family nucleoside-diphosphate sugar epimerase
+cg1821	hypothetical protein
+#N/A	hypothetical protein
+cg1823	hypothetical protein
+cg1824	transcription antitermination protein NusB
+cg1825	elongation factor P
+cg1826	Xaa-Pro aminopeptidase
+cg1827	3-dehydroquinate synthase
+cg1828	shikimate kinase
+cg1829	chorismate synthase
+cg1830	signal peptidase
+cg1831	transcriptional regulator
+cg1832	ABC-type transporter, permease component
+cg1833	ABC-type transporter, periplasmic component
+cg1834	ABC-type transporter, ATPase component
+cg1835	shikimate 5-dehydrogenase
+cg1836	periplasmic solute-binding protein
+cg1837	Holliday junction resolvase-like protein
+cg1838	alanyl-tRNA synthetase
+cg1839	recombination factor protein RarA
+cg1840	hypothetical protein
+cg1841	aspartyl-tRNA synthetase
+cg1842	metalloprotease
+cg1843	helicase
+cg1844	hypothetical protein
+cg1845	hypothetical protein
+cg1846	transcriptional regulator
+cg1847	hypothetical protein
+cg1848	coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase
+cg1849	hypothetical protein
+cg1850	flavoprotein
+cg1852	L-serine deaminase
+cg1853	glycerol-3-phosphate dehydrogenase
+cg1855	histidyl-tRNA synthetase
+cg1856	putative Zn-dependent hydrolase
+cg1857	peptidyl-prolyl cis-trans isomerase (rotamase)
+cg1859	hypothetical protein
+cg1860	hypothetical protein
+cg1861	guanosine polyphosphate pyrophosphohydrolase/synthetase
+cg1862	adenine phosphoribosyltransferase
+cg1864	dipeptide-binding protein DciAE
+cg1865	preprotein translocase subunit SecF
+cg1867	preprotein translocase subunit SecD
+cg1868	preprotein translocase subunit YajC
+cg1869	Holliday junction DNA helicase B
+cg1870	Holliday junction DNA helicase motor protein
+cg1871	Holliday junction resolvase
+cg1872	hypothetical protein
+cg1873	acyl-CoA thioesterase
+cg1874	hypothetical protein
+cg1875	hypothetical protein
+cg1876	glycosyltransferase
+cg1877	lipid A biosynthesis lauroyl acyltransferase
+cg1878	phosphatidylglycerophosphate synthase
+cg1879	diadenosine tetraphosphate (Ap4A) hydrolase
+cg1880	threonyl-tRNA synthetase
+cg1881	iron-dependent peroxidase
+cg1883	hypothetical protein
+cg1884	hypothetical protein
+cg1890	hypothetical protein
+cg1891	hypothetical protein
+cg1892	hypothetical protein
+cg1893	histone acetyltransferase HPA2
+cg1894	hypothetical protein
+cg1895	hypothetical protein
+cg1896	hypothetical protein
+cg1897	hypothetical protein
+cg1898	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+cg1903	ABC-type transporter, ATPase component
+cg1904	ABC-type transporter, permease component
+cg1905	hypothetical protein
+cg1907	phosphopantothenoylcysteine synthetase/decarboxylase
+cg1908	hypothetical protein
+#N/A	hypothetical protein
+cg1911	hypothetical protein
+cg1912	hypothetical protein
+cg1913	hypothetical protein
+cg1915	hypothetical protein
+cg1916	hypothetical protein
+cg1917	hypothetical protein
+cg1918	hypothetical protein
+cg1919	hypothetical protein
+cg1920	hypothetical protein
+cg1921	hypothetical protein
+cg1922	hypothetical protein
+cg1923	hypothetical protein
+cg1925	hypothetical protein
+cg1926	hypothetical protein
+cg1927	hypothetical protein
+cg1928	hypothetical protein
+cg1929	site-specific recombinase
+cg1930	hypothetical protein
+cg1931	hypothetical protein
+cg1932	protein-tyrosine phosphatase
+cg1934	hypothetical protein
+cg1935	transcriptional regulator
+cg1936	hypothetical protein
+cg1937	hypothetical protein
+cg1938	hypothetical protein
+cg1940	hypothetical protein
+cg1941	hypothetical protein
+cg1942	hypothetical protein
+0	hypothetical protein
+cg1945	hypothetical protein
+cg1946	hypothetical protein
+cg1947	hypothetical protein
+cg1949	hypothetical protein
+cg1950	putative transposase
+0	hypothetical protein
+cg1951	transposase
+cg1954	hypothetical protein
+cg1955	hypothetical protein
+cg1956	single-stranded DNA-specific exonuclease
+cg1957	hypothetical protein
+cg1959	ATPase
+cg1960	hypothetical protein
+cg1961	hypothetical protein
+cg1962	hypothetical protein
+cg1963	helicase
+cg1964	hypothetical protein
+cg1965	hypothetical protein
+cg1966	hypothetical protein
+cg1967	hypothetical protein
+cg1968	hypothetical protein
+cg1969	hypothetical protein
+cg1970	hypothetical protein
+#N/A	hypothetical protein
+cg1974	hypothetical protein
+cg1975	hypothetical protein
+cg1976	hypothetical protein
+cg1977	hypothetical protein
+cg1978	hypothetical protein
+cg1980	hypothetical protein
+cg1981	hypothetical protein
+cg1982	ATPase with chaperone activity, ATP-binding subunit
+cg1983	hypothetical protein
+cg1984	hypothetical protein
+cg1985	helicase
+cg1986	hypothetical protein
+cg1987	hypothetical protein
+cg1988	ribosomal protein S13
+cg1989	hypothetical protein
+cg1990	hypothetical protein
+cg1991	hypothetical protein
+cg1992	hypothetical protein
+cg1993	hypothetical protein
+cg1994	hypothetical protein
+cg1995	hypothetical protein
+cg1996	site-specific DNA methylase or
+cg1997	stress-sensitive restriction system protein 1
+cg1998	stress-sensitive restriction system protein 2
+cg1999	hypothetical protein
+cg2000	hypothetical protein
+cg2001	hypothetical protein
+cg2002	hypothetical protein
+cg2003	helicase
+cg2004	hypothetical protein
+cg2005	hypothetical protein
+cg2006	hypothetical protein
+cg2007	hypothetical protein
+cg2008	hypothetical protein
+cg2009	ATPase with chaperone activity, ATP-binding subunit
+cg2010	hypothetical protein
+cg2011	hypothetical protein
+cg2012	hypothetical protein
+cg2014	hypothetical protein
+cg2015	hypothetical protein
+cg2016	hypothetical protein
+cg2017	hypothetical protein
+cg2018	hypothetical protein
+cg2019	hypothetical protein
+cg2020	hypothetical protein
+cg2021	hypothetical protein
+cg2022	hypothetical protein
+#N/A	hypothetical protein
+cg2024	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+cg2028	hypothetical protein
+cg2030	hypothetical protein
+cg2031	hypothetical protein
+cg2032	hypothetical protein
+cg2033	hypothetical protein
+cg2034	hypothetical protein
+cg2035	hypothetical protein
+#N/A	hypothetical protein
+cg2037	hypothetical protein
+#N/A	hypothetical protein
+cg2039	hypothetical protein
+cg2040	transcriptional regulator
+cg2041	hypothetical protein
+cg2042	hypothetical protein
+cg2043	periplasmic serine protease
+cg2044	hypothetical protein
+#N/A	hypothetical protein
+cg2047	hypothetical protein
+cg2048	hypothetical protein
+cg2049	hypothetical protein
+cg2050	hypothetical protein
+#N/A	hypothetical protein
+cg2052	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+cg2056	hypothetical protein
+cg2057	hypothetical protein
+#N/A	hypothetical protein
+cg2059	hypothetical protein
+cg4007	hypothetical protein
+cg2060	hypothetical protein
+cg2061	hypothetical protein
+cg2062	hypothetical protein
+cg2063	hypothetical protein
+cg2064	topoisomerase IA
+cg2065	hypothetical protein
+cg2066	uncharacterized low-complexity protein
+cg2067	hypothetical protein
+0	hypothetical protein
+cg2069	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	micrococcal nuclease-like protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	single-stranded DNA-binding protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	membrane-associated Zn-dependent protease 1
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+#N/A	integrase
+0	hypothetical protein
+0	hypothetical protein
+cg1751	hypothetical protein
+0	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+0	hypothetical protein
+cg2068	hypothetical protein
+0	hypothetical protein
+cg2071	hypothetical protein
+cg2072	di- and tricarboxylate transporter
+cg2073	hypothetical protein
+cg2074	hypothetical protein
+cg2075	hypothetical protein
+cg2076	hypothetical protein
+cg2077	hypothetical protein
+cg2078	hypothetical protein
+cg2079	hypothetical protein
+cg2080	hypothetical protein
+cg2081	ribonuclease D
+cg2083	1-deoxy-D-xylulose-5-phosphate synthase
+cg2084	SAM-dependent methyltransferase
+cg2085	hypothetical protein
+cg2086	deoxyuridine 5'-triphosphate nucleotidohydrolase
+cg2087	hypothetical protein
+cg2088	hypothetical protein
+cg2089	hypothetical protein
+cg2090	fructose-1,6-bisphosphatase
+cg2091	transcriptional regulator
+cg2092	RNA polymerase sigma factor
+cg2095	hypothetical protein
+cg2096	hypothetical protein
+cg2097	hypothetical protein
+cg2098	hypothetical protein
+cg2099	hypothetical protein
+cg2100	rRNA or tRNA methylase
+cg2101	D-tyrosyl-tRNA deacylase
+cg2102	RNA polymerase sigma factor SigB
+cg2103	Mn-dependent transcriptional regulator
+cg2104	UDP-glucose 4-epimerase
+cg2105	hypothetical protein
+cg2106	hypothetical protein
+cg2107	putative helicase
+cg2109	transcriptional regulator
+cg2110	hypothetical protein
+cg2111	HrpA-like helicase
+cg2112	transcriptional regulator NrdR
+cg2113	hypothetical protein
+cg2114	LexA repressor
+cg2115	transcriptional regulator of sugar metabolism
+cg2116	fructose-1-phosphate kinase
+cg2117	phosphoenolpyruvate-protein kinase
+cg2118	transcriptional regulator of sugar metabolism
+cg2119	putative fructose-1-phosphate kinase
+cg2120	phosphotransferase system, fructose-specific IIC component
+cg2121	hypothetical protein
+cg2124	hypothetical protein
+cg2125	xanthine/uracil permeases
+cg2126	GTPase
+cg2127	hypothetical protein
+cg2128	hypothetical protein
+cg2129	diaminopimelate epimerase
+cg2130	tRNA delta(2)-isopentenylpyrophosphate transferase
+cg2131	hypothetical protein
+cg2132	hypothetical protein
+cg2133	hypothetical protein
+cg2134	hypothetical protein
+cg2135	2-methylthioadenine synthetase
+cg2136	glutamate ABC-type transporter, ATPase component
+cg2137	glutamate ABC-type transporter, periplasmic component
+cg2138	glutamate ABC-type transporter, permease component
+cg2139	glutamate ABC-type transporter, permease component
+cg2140	recombination regulator RecX
+cg2141	recombinase A
+cg2145	hypothetical protein
+cg2146	hypothetical protein
+cg2147	hypothetical protein
+cg2148	ABC-type transporter, ATPase component
+cg2149	ABC-type transporter, permease component
+cg2151	phage shock protein A (IM30)
+cg2152	transcriptional regulator
+cg2153	competence- and mitomycin-induced protein
+cg2154	phosphatidylglycerophosphate synthase
+cg2155	hypothetical protein
+cg2156	hypothetical protein
+cg2157	membrane protein TerC
+cg2158	DNA translocase SpoIIIE-like protein
+cg2159	hypothetical protein
+cg2160	metallo-beta-lactamase superfamily hydrolase
+cg2161	dihydrodipicolinate synthase
+cg2162	FAD-dependent thymidylate synthase
+cg2163	dihydrodipicolinate reductase
+cg2165	hypothetical protein
+cg2166	polynucleotide phosphorylase/polyadenylase
+cg2167	30S ribosomal protein S15
+cg2168	inosine-uridine nucleoside N-ribohydrolase
+cg2169	bifunctional riboflavin kinase/FMN adenylyltransferase
+cg2170	tRNA pseudouridine synthase B
+cg2171	phosphopantetheinyl transferase component of siderophore synthetase
+cg2172	hypothetical protein
+cg2173	Na+-driven multidrug efflux pump
+cg2174	exopolyphosphatase-related protein
+cg2175	ribosome-binding factor A
+cg2176	translation initiation factor IF-2
+cg2177	nucleic-acid-binding protein
+cg2178	transcription elongation factor NusA
+cg2179	hypothetical protein
+cg2180	hypothetical protein
+cg2181	ABC-type transporter, periplasmic component
+cg2182	ABC-type transporter, permease component
+cg2183	ABC-type transporter, permease component
+cg2184	ABC-type transporter, duplicated ATPase component
+cg2185	prolyl-tRNA synthetase
+cg2186	hypothetical protein
+cg2187	Mg-chelatase subunit ChlD
+cg2188	Mg-chelatase subunit ChlI
+cg2189	uroporphyrinogen-III methylase
+cg2190	hypothetical protein
+cg2191	hypothetical protein
+cg2192	malate:quinone oxidoreductase
+cg2193	hypothetical protein
+cg2194	mycothione/glutathione reductase
+cg2195	hypothetical protein
+cg2196	hypothetical protein
+cg2197	hypothetical protein
+cg2198	methionine aminopeptidase
+cg2199	cell division protein FtsI
+cg2200	two-component system, response regulator
+cg2201	two-component system, sensory transduction histidine kinase
+cg2202	ABC-type transporter, permease component
+cg2204	ABC-type transporter, ATPase component
+cg2206	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase
+cg2207	membrane-associated Zn-dependent protease 1
+cg2208	1-deoxy-D-xylulose 5-phosphate reductoisomerase
+cg2211	hypothetical protein
+cg2212	hypothetical protein
+cg2213	ABC-type transporter, ATPase component
+cg2214	Fe-S-cluster redox protein
+cg2215	hypothetical protein
+cg2216	CDP-diglyceride synthetase
+cg2217	ribosome recycling factor
+cg2218	uridylate kinase
+cg2221	elongation factor Ts
+cg2222	30S ribosomal protein S2
+cg2223	membrane metalloendopeptidase protein
+cg2224	site-specific tyrosine recombinase XerC
+cg2226	Rossmann-fold nucleotide-binding protein
+cg2227	ATPase with chaperone activity
+cg2228	hypothetical protein
+cg2229	hypothetical protein
+cg2230	ribonuclease HII
+cg2232	signal peptidase I
+cg2234	ABC-type transport systems, periplasmic component
+cg2235	50S ribosomal protein L19
+cg2236	thiamine-phosphate pyrophosphorylase
+cg2237	glycine/D-amino acid oxidase
+cg2238	sulfur transfer protein
+cg2239	thiazole synthase
+cg2240	thiamine biosynthesis protein ThiF
+cg2241	RNA binding protein
+cg2242	transcriptional regulator
+cg2243	di- and tricarboxylate transporters
+cg2244	adenylosuccinate lyase
+cg2247	hypothetical protein
+cg2248	hypothetical protein
+cg2249	tRNA (guanine-N(1)-)-methyltransferase
+cg2250	hypothetical protein
+cg2251	16S rRNA-processing protein
+cg2252	hypothetical protein
+cg2253	30S ribosomal protein S16
+cg2254	ankyrin repeat-containing protein
+cg2255	ABC-type transporter, permease component
+cg2256	ABC-type transporter, ATPase component
+cg2257	signal recognition particle GTPase
+cg2258	PII uridylyl-transferase
+cg2260	nitrogen regulatory protein PII
+cg2261	ammonia permeases
+cg2262	signal recognition particle GTPase
+cg2263	hypothetical protein
+cg2265	chromosome segregation ATPase
+cg2266	acylphosphatase
+cg2267	hypothetical protein
+cg2268	transcriptional regulator
+cg2269	permease
+cg2270	hypothetical protein
+cg2271	Co/Zn/Cd efflux system component
+cg2272	formamidopyrimidine-DNA glycosylase
+cg2273	ribonuclease III
+cg2274	hypothetical protein
+cg2275	hypothetical protein
+cg2277	ABC-type transporter, ATPase component and permease component
+cg2279	ABC-type transporter, ATPase component and permease component
+cg2280	glutamate dehydrogenase
+cg2282	glycerate kinase
+cg2283	hypothetical protein
+cg2284	hypothetical protein
+cg2285	metal-dependent amidase/aminoacylase/carboxypeptidase
+cg2286	hypothetical protein
+cg2288	hypothetical protein
+cg2289	glucan phosphorylase
+cg2290	ring-cleavage extradiol dioxygenase
+cg2291	pyruvate kinase
+cg2292	prolipoprotein diacylglyceryl transferase
+cg2293	indole-3-glycerol phosphate synthase
+cg2294	hypothetical protein
+cg2296	phosphoribosyl-AMP cyclohydrolase
+cg2297	imidazole glycerol phosphate synthase subunit HisF
+cg2298	fructose-1,6-bisphosphatase
+cg2299	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase
+cg2300	imidazole glycerol phosphate synthase subunit HisH
+cg2301	major facilitator superfamily permease
+cg2302	hypothetical protein
+cg2303	imidazoleglycerol-phosphate dehydratase
+cg2304	histidinol-phosphate aminotransferase
+cg2305	histidinol dehydrogenase
+cg2306	hypothetical protein
+cg2307	hypothetical protein
+cg2308	hypothetical protein
+cg2309	transcriptional regulator
+cg2310	pullulanase
+cg2311	SAM-dependent methyltransferase
+cg2312	hydroxypyruvate isomerase
+cg2313	dehydrogenase
+cg2314	transcriptional regulator
+cg2315	ABC-type transporter, ATPase component
+cg2317	ABC-type transporter, permease component
+cg2318	ABC-type transporter, periplasmic component
+cg2320	transcriptional regulator
+cg2321	DNA polymerase III epsilon subunit
+cg2322	hypothetical protein
+cg2323	maltooligosyl trehalose synthase
+cg2324	hypothetical protein
+cg2326	hypothetical protein
+cg2328	hypothetical protein
+cg2329	coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase
+cg2330	ribosome-associated heat shock protein
+cg2331	hypothetical protein
+cg2332	hypothetical protein
+cg2333	1,4-alpha-glucan branching enzyme
+cg2334	threonine dehydratase
+cg2336	hypothetical protein
+cg2337	methionine synthase II
+cg2338	DNA polymerase III subunit alpha
+cg2339	permease
+cg2340	hypothetical protein
+cg2341	Co/Zn/Cd cation transporter
+cg2342	dehydrogenase
+#N/A	diaminopimelate decarboxylase
+cg2344	cysteine synthase
+cg2345	hypothetical protein
+cg2346	23S RNA-specific pseudouridylate synthase
+cg2347	lipoprotein signal peptidase
+cg2348	hypothetical protein
+cg2349	ABC-type transporter, ATPase component
+cg2350	hypothetical protein
+cg2352	L-asparaginase
+cg2353	hypothetical protein
+cg2355	DNA polymerase IV
+cg2356	DMT family permease
+cg2357	transcriptional regulator
+cg2358	hypothetical protein
+cg2359	isoleucyl-tRNA synthetase
+cg2360	hypothetical protein
+cg2361	cell division initiation protein
+cg2362	hypothetical protein
+cg2363	hypothetical protein
+cg2364	TIM-barrel fold family protein
+cg2365	hypothetical protein
+cg2366	cell division protein FtsZ
+cg2367	cell division septal protein
+cg2368	UDP-N-acetylmuramate--L-alanine ligase
+cg2369	N-acetylglucosaminyl transferase
+cg2370	cell division membrane protein
+cg2371	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase
+cg2372	phospho-N-acetylmuramoyl-pentapeptide-transferase
+cg2373	UDP-N-acetylmuramyl pentapeptide synthase
+cg2374	UDP-N-acetylmuramoylalanyl-D-glutamate--2,6-diaminopimelate ligase
+cg2375	cell division protein FtsI
+cg2376	hypothetical protein
+cg2377	S-adenosyl-methyltransferase MraW
+cg2378	cell division protein MraZ
+cg2380	hypothetical protein
+cg2381	hypothetical protein
+cg2382	hypothetical protein
+cg2383	5,10-methylenetetrahydrofolate reductase
+cg2384	geranylgeranyl pyrophosphate synthase
+cg2385	hypothetical protein
+cg2386	hypothetical protein
+cg2388	serine/threonine protein kinase
+cg2389	hypothetical protein
+cg2390	hypothetical protein
+cg2391	3-deoxy-D-arabino-heptulosonate 7-phosphate synthase AroG
+cg2392	hypothetical protein
+cg2393	hypothetical protein
+cg2394	hypothetical protein
+cg2395	hypothetical protein
+cg2397	hypothetical protein
+cg2398	1-acyl-sn-glycerol-3-phosphate acyltransferase
+cg2399	glucose kinase
+cg2400	glycosyltransferase
+cg2401	cell wall-associated hydrolase
+cg2402	cell wall-associated hydrolase
+cg2403	cytochrome b subunit of the bc complex
+cg2404	Rieske Fe-S protein
+cg2405	cytochrome C
+cg2406	cytochrome C oxidase subunit III
+#N/A	hypothetical protein
+cg2408	hypothetical protein
+cg2409	cytochrome C oxidase subunit II
+cg2410	asparagine synthase
+cg2411	hypothetical protein
+cg2412	hypothetical protein
+cg2413	adenosyl cobinamide kinase
+cg2414	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase
+cg2415	cobalamin synthase
+cg2417	putative short-chain dehydrogenase
+cg2418	branched-chain amino acid aminotransferase
+cg2419	leucyl aminopeptidase
+cg2420	hypothetical protein
+cg2421	dihydrolipoamide acetyltransferase
+cg2422	lipoyltransferase
+cg2423	lipoyl synthase
+cg2424	hypothetical protein
+cg2425	permease
+cg3151	transposase
+cg2428	hypothetical protein
+cg2429	glutamine synthase
+cg2430	hypothetical protein
+cg2431	hypothetical protein
+cg2432	NTP pyrophosphohydrolase
+cg2434	coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase
+cg2435	putative translation initiation inhibitor
+cg2437	threonine synthase
+cg2438	hypothetical protein
+cg2440	major facilitator superfamily permease
+cg2441	hypothetical protein
+cg2442	hypothetical protein
+cg2443	hypothetical protein
+cg2444	hypothetical protein
+cg2445	hypothetical protein
+cg2446	glutamine synthetase adenylyltransferase
+cg2447	glutamine synthase
+cg2449	hypothetical protein
+cg2450	hypothetical protein
+cg2451	hypothetical protein
+cg2452	galactokinase
+cg2453	exoribonuclease
+cg2454	hypothetical protein
+cg2455	bifunctional RNase H/acid phosphatase
+cg2456	Zn-ribbon protein
+cg2457	hypothetical protein
+cg2458	phosphatase
+cg2459	protein-tyrosine-phosphatase
+cg2460	hypothetical protein
+cg2461	hypothetical protein
+#N/A	hypothetical protein
+cg2462	transcriptional regulator
+#N/A	hypothetical protein
+cg2464	hypothetical protein
+cg2465	hypothetical protein
+cg2466	pyruvate dehydrogenase subunit E1
+cg2467	ABC-type transporter, ATPase component
+cg2468	ABC-type transporter, permease component
+cg2470	hypothetical protein
+cg4003	hypothetical protein
+cg2471	hypothetical protein
+cg2472	hydrolase/acyltransferase
+cg2473	acyl carrier protein
+cg2474	HAD family sugar phosphatase
+cg2475	hypothetical protein
+cg2477	hypothetical protein
+cg2478	beta-lactamase class C
+cg2479	hypothetical protein
+cg2480	hypothetical protein
+cg2481	hypothetical protein
+cg2482	hypothetical protein
+cg2483	hypothetical protein
+cg2484	hypothetical protein
+cg2485	phosphodiesterase/alkaline phosphatase D
+cg2487	hypothetical protein
+cg2488	hypothetical protein
+cg2489	DNA primase
+cg2490	hypothetical protein
+cg2491	hypothetical protein
+cg2492	D-fructose-6-phosphate amidotransferase
+cg2493	hypothetical protein
+cg2494	deoxyguanosinetriphosphate triphosphohydrolase-like protein
+cg2495	hypothetical protein
+cg2496	chromosome segregation ATPase
+cg2497	hypothetical protein
+cg2498	hypothetical protein
+cg2499	glycyl-tRNA synthetase
+cg2500	transcriptional regulator
+cg2502	Fe2+/Zn2+ uptake regulation protein
+cg2504	hypothetical protein
+cg2507	hypothetical protein
+cg2508	undecaprenyl pyrophosphate synthase
+cg2509	DNA repair protein RecO
+cg2510	GTP-binding protein Era
+cg2511	CBS domain-containing protein
+cg2512	putative metalloprotease
+cg2513	phosphate starvation-inducible protein PhoH
+cg2514	hypothetical protein
+cg2515	molecular chaperone
+cg2516	heat-inducible transcription repressor
+cg2517	coproporphyrinogen III oxidase
+cg2518	hypothetical protein
+cg2519	hypothetical protein
+cg2520	hypothetical protein
+cg2521	long-chain acyl-CoA synthetase (AMP-forming)
+cg2523	4-alpha-glucanotransferase
+cg2524	ABC-type transporter, ATPase component and permease component
+cg2527	Zn-dependent oligopeptidase
+cg2528	carboxylesterase type B
+cg2529	putative trehalose synthase
+cg2530	hypothetical protein
+cg2531	isopentenyl-diphosphate delta-isomerase
+cg2533	hypothetical protein
+cg2534	hypothetical protein
+cg2535	hypothetical protein
+cg2536	PLP-dependent aminotransferase
+cg2537	branched-chain amino acid permease
+cg2538	coenzyme F420-dependent N5,N10-methylene tetrahydromethanopterin reductase
+cg2539	EctP protein
+cg2540	hypothetical protein
+cg2542	permease
+cg2543	FAD/FMN-containing dehydrogenase
+cg2544	transcriptional regulator
+cg2545	hypothetical protein
+cg2546	hypothetical protein
+cg2547	hypothetical protein
+cg2549	ABC-type transporter, periplasmic component
+cg2550	ABC-type transporter, permease component
+cg2551	ABC-type transporter, permease component
+cg2552	ABC-type transporter, duplicated ATPase component
+cg2553	2'-5' RNA ligase
+cg2554	sugar kinase
+cg2556	uncharacterized iron-regulated membrane protein
+cg2557	Na+-dependent transporter
+cg2558	hypothetical protein
+cg2559	malate synthase G
+cg2560	isocitrate lyase
+cg2561	thiamine biosynthesis protein x
+cg2562	hypothetical protein
+cg2563	choline-glycine betaine transporter
+cg2564	hypothetical protein
+cg2565	hypothetical protein
+cg2566	hypothetical protein
+cg2567	hypothetical protein
+cg2568	integral membrane protein
+cg2569	hypothetical protein
+cg2570	dicarboxylate-binding periplasmic protein
+cg2571	GTP-binding protein LepA
+cg2572	hypothetical protein
+cg2573	30S ribosomal protein S20
+cg2574	putative threonine efflux protein
+cg2575	ankyrin repeat-containing protein
+cg2576	hypothetical protein
+cg2577	competence protein ComE-like protein
+cg2578	DNA uptake protein
+cg2579	hypothetical protein
+cg2581	fructose-2,6-bisphosphatase
+cg2582	hypothetical protein
+cg2584	nicotinic acid mononucleotide adenylyltransferase
+cg2585	hypothetical protein
+cg2586	gamma-glutamyl phosphate reductase
+cg2587	putative phosphoglycerate dehydrogenase
+cg2588	gamma-glutamyl kinase
+cg2589	GTPase ObgE
+cg2590	xanthine/uracil permease
+cg2591	aldo/keto reductase
+cg2592	hypothetical protein
+cg2594	50S ribosomal protein L27
+cg2595	50S ribosomal protein L21
+cg2597	ribonuclease E
+cg2598	hypothetical protein
+cg2599	pirin-related protein
+cg2600	transposase
+cg2601	pirin-related protein
+cg2602	hypothetical protein
+cg2603	nucleoside diphosphate kinase
+cg2604	hypothetical protein
+cg2605	acetyltransferase
+cg2606	hypothetical protein
+cg2607	hypothetical protein
+cg2608	folylpolyglutamate synthase
+cg2609	valyl-tRNA synthetase
+cg2610	ABC-type transport systems, periplasmic components
+cg2611	molecular chaperone
+cg2612	Rossmann fold nucleotide-binding protein
+cg2613	malate dehydrogenase
+cg2614	transcriptional regulator
+cg2615	transcriptional regulator
+cg2616	ferredoxin subunits of nitrite reductase and ring-hydroxylating dioxygenase
+cg2617	flavodoxin reductase family protein 1
+cg2618	major facilitator superfamily permease
+cg2619	permease
+cg2620	ATP-dependent protease ATP-binding subunit
+cg2621	hypothetical protein
+cg2622	acyl-CoA:acetate CoA transferase beta subunit
+cg2623	acyl-CoA:acetate CoA transferase alpha subunit
+cg2624	transcriptional regulator
+cg2625	acetyl-CoA acetyltransferase
+cg2626	hydrolase/acyltransferase
+cg2627	DNA-binding HTH domain-containing protein
+cg2628	hypothetical protein
+cg2629	putative 3-carboxy-cis,cis-muconate cycloisomerase
+cg2630	protocatechuate 3,4-dioxygenase beta subunit
+cg2631	protocatechuate 3,4-dioxygenase beta subunit
+cg2633	hypothetical protein
+cg2634	hypothetical protein
+cg2635	putative chloromuconate cycloisomerase
+cg2636	protocatechuate 3,4-dioxygenase beta subunit
+cg2637	benzoate dioxygenase large subunit
+cg2638	benzoate dioxygenase small subunit
+cg2639	benzoate 1,2-dioxygenase ferredoxin reductase subunit
+cg2640	1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate dehydrogenase
+cg2641	DNA-binding HTH domain-containing protein
+cg2642	putative benzoate transporter
+cg2643	putative benzoate membrane transport protein
+cg2644	ATP-dependent Clp protease proteolytic subunit
+cg2645	ATP-dependent Clp protease proteolytic subunit
+cg2647	trigger factor
+cg2648	hypothetical protein
+cg2649	beta-lactamase class C
+cg2650	hypothetical protein
+cg2651	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+cg2657	hypothetical protein
+cg2658	ribose-5-phosphate isomerase B
+cg2659	hypothetical protein
+cg2661	hypothetical protein
+cg2662	aminopeptidase N
+cg2664	type IV restriction endonuclease
+cg2665	hypothetical protein
+cg2666	hypothetical protein
+#N/A	hypothetical protein
+#N/A	hypothetical protein
+cg2670	hypothetical protein
+cg2672	phytoene/squalene synthetase
+cg2673	major facilitator superfamily permease
+cg2674	hypothetical protein
+cg2675	ABC-type transporter, duplicated ATPase component
+cg2676	ABC-type transporter, permease component
+cg2677	ABC-type transporter, permease component
+cg2678	ABC-type transporter, periplasmic component
+cg2679	hypothetical protein
+cg2680	hypothetical protein
+cg2683	hypothetical protein
+cg2684	uncharacterized membrane-associated protein
+cg2685	short chain dehydrogenase
+cg2686	transcriptional regulator
+cg2687	cystathionine gamma-synthase
+cg2688	ABC-type transporter, ATPase component
+cg2689	hemoglobin-like protein
+cg2690	chromate transport protein ChrA
+cg2691	hypothetical protein
+cg2692	thioesterase
+cg2693	hypothetical protein
+cg2694	hypothetical protein
+cg2695	putative ABC transporter ATP-binding protein
+cg2697	single-stranded DNA-binding protein
+cg2699	hypothetical protein
+cg2700	alkaline phosphatase
+cg2701	hypothetical protein
+cg2703	ABC-type transporter, permease component
+cg2704	ABC-type transporter, permease component
+cg2705	ABC-type transporter, periplasmic component
+cg2707	hypothetical protein
+cg2708	ABC-type transporter, ATPase component
+0	glycosyltransferase
+cg2710	hypothetical protein
+cg2712	AraC-type DNA-binding domain-containing protein
+cg2713	hypothetical protein
+cg2714	hypothetical protein
+cg2715	hypothetical protein
+cg2716	hydroxypyruvate isomerase
+cg2717	short-chain dehydrogenase
+cg2718	oligoribonuclease
+cg2719	hypothetical protein
+cg2720	hypothetical protein
+cg2722	hypothetical protein
+#N/A	hypothetical protein
+0	hypothetical protein
+cg2725	putative transposase
+cg2726	hypothetical protein
+cg2727	hypothetical protein
+cg2728	glutaminase
+cg2729	transcriptional regulator
+cg2730	transcriptional regulator
+cg2731	glucuronate isomerase
+cg2732	gluconate kinase
+cg2733	hypothetical protein
+cg2734	amidase
+cg2735	hypothetical protein
+cg2736	bacterioferritin comigratory protein
+cg2737	transcriptional regulator
+cg2738	4'-phosphopantetheinyl transferase
+cg2739	major facilitator superfamily permease
+cg2740	hypothetical protein
+cg2741	hypothetical protein
+cg2743	3-oxoacyl-(acyl-carrier-protein) synthase
+cg2746	regulator of polyketide synthase expression
+cg2747	metalloendopeptidase-like protein
+cg2748	hypothetical protein
+cg2750	hypothetical protein
+cg2751	putative deoxyribonucleotide triphosphate pyrophosphatase
+cg2753	ribonuclease PH
+cg2755	hypothetical protein
+cg2756	hypothetical protein
+cg2757	putative transposase
+cg2758	hypothetical protein
+cg2759	putative transposase
+cg2760	hypothetical protein
+cg2761	metal-dependent hydrolase
+cg2762	glutamate racemase
+cg2765	hypothetical protein
+cg2766	transcriptional regulator
+cg2767	hypothetical protein
+cg2768	L-aminopeptidase/D-esterase
+cg2770	hypothetical protein
+cg2772	ATP-dependent Clp protease adaptor protein ClpS
+cg2773	hypothetical protein
+cg2774	nicotinate phosphoribosyltransferase
+cg2775	hypothetical protein
+cg2776	Rad3-related DNA helicase
+cg2777	hypothetical protein
+cg2778	hypothetical protein
+cg2779	phosphoserine phosphatase
+cg2780	heme/copper-type cytochrome/quinol oxidase, subunit 1
+cg2781	ribonucleotide-diphosphate reductase subunit beta
+cg2782	ferritin-like protein
+cg2783	transcriptional regulator
+cg2784	Mn-dependent transcriptional regulator
+cg2785	hypothetical protein
+cg2786	ribonucleotide-diphosphate reductase subunit alpha
+cg2787	ribonucleotide reductase stimulatory protein
+cg2789	glutaredoxin-like protein
+cg2792	NAD synthetase
+cg2793	hypothetical protein
+cg2794	hypothetical protein
+cg2795	putative Zn-NADPH:quinone dehydrogenase
+cg2796	hypothetical protein
+cg2797	hypothetical protein
+cg2799	hypothetical protein
+cg2800	phosphoglucomutase
+cg2801	camphor resistance protein CrcB
+cg2802	hypothetical protein
+cg2803	hypothetical protein
+cg2804	hypothetical protein
+cg2805	hypothetical protein
+cg2806	hypothetical protein
+cg2807	transposase
+cg2808	hypothetical protein
+cg2809	hypothetical protein
+cg2810	Na+/H+-dicarboxylate symporter
+cg2811	ABC-type transporter, permease component
+cg2812	ABC-type transporter, ATPase component
+cg2822	hypothetical protein
+cg2823	dehydrogenase
+cg2824	hypothetical protein
+cg2828	hypothetical protein
+cg2829	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+cg2830	hypothetical protein
+cg2831	regulatory-like protein
+cg2833	cysteine synthase
+cg2834	serine acetyltransferase
+cg2835	acetyltransferase
+cg2836	succinyl-CoA synthetase subunit alpha
+cg2837	succinyl-CoA synthetase subunit beta
+cg2838	dithiol-disulfide isomerase
+cg2839	hypothetical protein
+cg2840	acetyl-CoA hydrolase
+cg2841	TIM-barrel containing enzyme
+cg2842	phosphate uptake regulator
+cg2843	ABC-type transporter, ATPase component
+cg2844	ABC-type transporter, permease component
+cg2845	ABC-type transporter, permease component
+cg2846	ABC-type transporter, periplasmic component
+cg2847	histone acetyltransferase HPA2-like protein
+cg2848	hypothetical protein
+cg2849	hypothetical protein
+cg2850	hypothetical protein
+cg2851	4-amino-4-deoxychorismate lyase
+cg2852	aminomethyltransferase related to GcvT
+cg2853	hypothetical protein
+cg2856	phosphoribosylaminoimidazole synthetase
+cg2857	amidophosphoribosyltransferase
+cg2859	hypothetical protein
+cg2860	acyl-CoA hydrolase
+cg2861	membrane proteins
+cg2862	phosphoribosylformylglycinamidine synthase II
+cg2863	phosphoribosylformylglycinamidine synthase subunit I
+cg2865	phosphoribosylformylglycinamidine synthase subunit PurS
+cg2867	glutathione peroxidase
+cg2868	extracellular nuclease
+cg0705	hypothetical protein
+cg2869	deacetylase
+cg2870	Na+/H+-dicarboxylate symporter
+cg2873	protease II
+cg2874	phosphoribosylaminoimidazole-succinocarboxamide synthase
+cg2876	adenylosuccinate lyase
+cg2877	PLP-dependent aminotransferase
+cg2878	phosphoribosylamine--glycine ligase
+cg2880	diadenosine tetraphosphate (Ap4A) hydrolase
+cg2883	SAM-dependent methyltransferase
+cg2884	dipeptide/tripeptide permease
+cg2885	adenosylmethionine--8-amino-7-oxononanoate transaminase
+cg2886	dithiobiotin synthetase
+cg2887	two-component system, sensory transduction histidine kinase
+cg2888	two-component system, response regulator
+cg2889	transcriptional regulator
+cg2890	hypothetical protein
+cg2891	pyruvate dehydrogenase
+cg2893	major facilitator superfamily permease
+cg2894	transcriptional regulator
+cg2895	major facilitator superfamily permease
+cg2896	hypothetical protein
+cg2898	succinate dehydrogenase/fumarate reductase, flavoprotein subunit
+cg2899	transcriptional regulator
+cg2900	D-2-hydroxyisocaproate dehydrogenase
+cg2901	hypothetical protein
+cg2902	HAD superfamily hydrolase
+cg2903	hypothetical protein
+cg2904	hypothetical protein
+cg2905	hypothetical protein
+cg2906	hypothetical protein
+cg2907	trehalose-6-phosphate synthase
+cg2908	hypothetical protein
+cg2909	trehalose-6-phosphatase
+cg2910	transcriptional regulator
+cg2911	ABC-type transporter, periplasmic component
+cg2912	ABC-type transporter, ATPase component
+cg2913	ABC-type transporter, permease component
+cg2914	transposase
+#N/A	hypothetical protein
+cg2916	hypothetical protein
+cg2917	hypothetical protein
+cg2918	hypothetical protein
+#N/A	hypothetical protein
+cg2920	hypothetical protein
+cg2921	hypothetical protein
+cg2922	transcriptional regulator
+cg2923	rRNA methylase
+cg2924	cysteinyl-tRNA synthetase
+cg2925	phosphotransferase system IIC component
+cg2927	beta-fructosidase
+cg2928	glucosamine-6-phosphate isomerase
+cg2929	N-acetylglucosamine-6-phosphate deacetylase
+cg2931	putative dihydrodipicolinate synthase
+cg2932	transcriptional regulator
+cg2933	N-acetylmannosamine-6-phosphate 2-epimerase
+cg2935	hypothetical protein
+cg2936	transcriptional regulator
+cg2937	ABC-type transporter, periplasmic component
+cg2938	ABC-type transporter, permease component
+cg2939	ABC-type transporter, ATPase component
+cg2940	ABC-type transporter, ATPase component
+cg2941	putative threonine efflux protein
+cg2942	transcriptional regulator
+cg2943	hypothetical protein
+cg2944	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+cg2945	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+cg2946	transcriptional regulator
+cg2947	two-component system, response regulator
+cg2948	two-component system, sensory transduction histidine kinase
+cg2949	hypothetical protein
+cg2950	DNA repair protein RadA
+cg2951	DNA integrity scanning protein DisA
+cg2952	hypothetical protein
+cg2953	NAD-dependent aldehyde dehydrogenase
+cg2954	carbonic anhydrase
+cg2955	A/G-specific DNA glycosylase
+cg2956	hypothetical protein
+cg2958	L-2,3-butanediol dehydrogenase
+cg2960	hypothetical protein
+cg2962	hypothetical protein
+cg2963	ATPase with chaperone activity, ATP-binding subunit
+cg2964	inositol-5-monophosphate dehydrogenase
+cg2965	AraC-type DNA-binding domain-containing protein
+cg2966	phenol 2-monooxygenase
+cg2968	hypothetical protein
+cg2969	hypothetical protein
+cg2970	hypothetical protein
+cg2971	major facilitator superfamily permease
+cg2973	hypothetical protein
+cg2974	lysyl-tRNA synthetase
+cg2975	pantoate--beta-alanine ligase
+cg2976	hypothetical protein
+cg2977	hypothetical protein
+cg2978	hypothetical protein
+cg2979	7,8-dihydro-6-hydroxymethylpterin-pyrophosphokinase
+cg2981	dihydroneopterin aldolase
+cg2982	dihydropteroate synthase
+cg2983	GTP cyclohydrolase I
+cg2984	cell division protein
+cg2985	hypoxanthine-guanine phosphoribosyltransferase
+cg2986	ATPase
+cg2987	D-alanyl-D-alanine carboxypeptidase
+cg2988	inorganic pyrophosphatase
+cg2990	spermidine synthase
+cg2991	hypothetical protein
+cg2992	hypothetical protein
+cg2993	hypothetical protein
+cg2994	hypothetical protein
+cg2996	hypothetical protein
+cg2995	hypothetical protein
+cg2999	uncharacterized NAD(FAD)-dependent dehydrogenase
+cg3000	rhodanese-related sulfurtransferase
+cg3001	hypothetical protein
+cg3003	non-ribosomal peptide synthetase
+cg3004	succinic semialdehyde dehydrogenase
+cg3007	hypothetical protein
+cg3011	chaperonin GroEL
+cg3012	hypothetical protein
+cg3013	hypothetical protein
+cg3014	hypothetical protein
+cg3015	hypothetical protein
+cg3016	hypothetical protein
+cg3017	hypothetical protein
+cg3018	hypothetical protein
+cg3019	hypothetical protein
+cg3020	hypothetical protein
+cg3021	hypothetical protein
+cg3022	hypothetical protein
+cg3024	putative monovalent cation/H+ antiporter subunit A
+cg3025	putative monovalent cation/H+ antiporter subunit C
+cg3026	putative monovalent cation/H+ antiporter subunit D
+cg3027	putative monovalent cation/H+ antiporter subunit E
+cg3028	putative monovalent cation/H+ antiporter subunit F
+cg3029	putative monovalent cation/H+ antiporter subunit G
+cg3030	hypothetical protein
+cg3031	carboxylate-amine ligase
+cg3032	hypothetical protein
+cg3033	hypothetical protein
+cg3034	peptide deformylase
+cg3035	histone acetyltransferase HPA2-like protein
+cg3036	exonuclease III
+cg3037	cardiolipin synthase
+cg3038	major facilitator superfamily permease
+cg3039	Na+/phosphate symporter
+cg3040	epimerase
+cg3041	ABC-type transporter, permease component
+cg3042	ABC-type transporter, ATPase component
+cg3043	NTP pyrophosphohydrolase
+cg3044	hypothetical protein
+cg3045	ABC-type transport system, periplasmic component
+cg3046	serine/threonine protein kinase
+cg3047	acetate kinase
+cg3048	phosphotransacetylase
+cg3049	putative ferredoxin/ferredoxin-NADP reductase
+cg3050	acyltransferase
+cg3051	hypothetical protein
+cg3052	hypothetical protein
+cg3053	hypothetical protein
+cg3054	phosphoribosylglycinamide formyltransferase 2
+cg3057	hypothetical protein
+cg3058	putative transposase
+cg3059	hypothetical protein
+cg3060	two-component system, sensory transduction histidine kinase
+cg3061	two-component system, response regulator
+cg3063	adenylosuccinate synthetase
+cg3065	hypothetical protein
+#N/A	hypothetical protein
+cg3067	hypothetical protein
+cg3068	fructose-bisphosphate aldolase
+cg3069	hypothetical protein
+cg3070	rRNA methylase
+cg3071	orotate phosphoribosyltransferase
+cg3072	hypothetical protein
+cg3073	thiosulfate sulfurtransferase
+cg3074	hypothetical protein
+cg3075	multidrug resistance protein
+cg3078	hypothetical protein
+cg3079	ATPase with chaperone activity, ATP-binding subunit
+cg3080	putative sodium/glutamate symport carrier protein
+cg3082	transcriptional regulator
+cg3083	Co/Zn/Cd cation transporter
+cg3084	K+ transport flavoprotein
+cg3085	alkanal monooxygenase
+cg3086	cystathionine gamma-synthase
+cg3087	transcriptional regulator
+cg3088	hypothetical protein
+cg3089	hypothetical protein
+cg3090	hypothetical protein
+cg3091	hypothetical protein
+cg3092	hypothetical protein
+cg3093	putative amidohydrolase
+cg3094	hypothetical protein
+cg3095	hypothetical protein
+cg3096	NAD-dependent aldehyde dehydrogenase
+cg3097	transcriptional regulator
+cg3098	molecular chaperone
+cg3099	molecular chaperone GrpE
+cg3100	molecular chaperone DnaK
+cg3101	permease
+cg3102	nucleosidase
+cg3103	hypothetical protein
+cg3104	hypothetical protein
+cg3105	hypothetical protein
+cg3106	hypothetical protein
+cg3107	Zn-dependent alcohol dehydrogenase
+#N/A	hypothetical protein
+cg3109	hypothetical protein
+cg3110	hypothetical protein
+cg3112	permease
+cg3113	hypothetical protein
+cg3114	sulfate adenylate transferase subunit 1
+cg3115	sulfate adenylyltransferase subunit 2
+cg3116	phosphoadenosine phosphosulfate reductase
+cg3118	putative nitrite reductase
+cg3119	putative ferredoxin/ferredoxin-NADP reductase
+cg3120	hypothetical protein
+cg3121	hypothetical protein
+cg3122	hypothetical protein
+cg3124	hypothetical protein
+cg3125	hypothetical protein
+cg3126	hypothetical protein
+cg3127	hypothetical protein
+cg3128	ABC-type transporter, ATPase component
+cg3129	ABC-type transporter, ATPase component
+cg3130	ABC-type transporter, permease component
+cg3131	putative peptidase
+cg3132	hypothetical protein
+cg3133	ABC-type transporter, duplicated ATPase component
+cg3134	ABC-type transporter, permease component
+cg3135	hypothetical protein
+cg3136	nitroreductase
+cg3137	inosine-uridine nucleoside N-ribohydrolase
+cg3138	putative membrane protease subunit
+#N/A	hypothetical protein
+cg3140	3-methyladenine DNA glycosylase
+cg3141	hemoglobin-like flavoprotein
+cg3142	hypothetical protein
+cg3143	hypothetical protein
+cg3144	hypothetical protein
+cg3145	hypothetical protein
+cg3146	hypothetical protein
+cg3148	ABC-type transport system, ATPase component
+cg3149	aminotransferase AlaT
+0	putative transposase
+cg3153	hypothetical protein
+cg3154	UDP-glucose 6-dehydrogenase
+cg3155	deoxycytidine triphosphate deaminase
+cg3156	hypothetical protein
+cg3157	hypothetical protein
+cg3158	beta-N-acetylglucosaminidase-like protein
+cg3159	hypothetical protein
+#N/A	hypothetical protein
+cg3161	hypothetical protein
+cg3162	hypothetical protein
+cg3163	acyltransferase
+cg3164	hypothetical protein
+cg3165	hypothetical protein
+cg3166	glycosyltransferase
+cg3167	hypothetical protein
+cg3168	SAM-dependent methyltransferase
+cg3169	phosphoenolpyruvate carboxykinase
+cg3170	hypothetical protein
+cg3172	tRNA (guanine-N(7))-methyltransferase
+cg3173	hypothetical protein
+cg3174	putative integral membrane protein
+cg3175	hypothetical protein
+cg3176	hypothetical protein
+cg3177	acetyl-CoA carboxylase beta subunit
+cg3178	putative polyketide synthase
+cg3179	acyl-CoA synthase
+cg3180	hypothetical protein
+cg3181	hypothetical protein
+cg3182	putative esterase
+cg3185	hypothetical protein
+cg3186	putative esterase
+cg3187	hypothetical protein
+cg3189	phosphoribose diphosphate:decaprenyl-phosphate phosphoribosyltransferase
+cg3190	membrane-associated phospholipid phosphatase
+cg3191	hypothetical protein
+cg3192	hypothetical protein
+cg3193	membrane-associated phospholipid phosphatase
+cg3194	hypothetical protein
+cg3195	K+ transport flavoprotein
+cg3196	UDP-galactopyranose mutase
+cg3197	hypothetical protein
+cg3198	glycerol kinase
+cg3199	hypothetical protein
+cg3200	1-acyl-sn-glycerol-3-phosphate acyltransferase
+cg3201	seryl-tRNA synthetase
+cg3202	transcriptional regulator
+cg3203	hypothetical protein
+cg3204	hypothetical protein
+#N/A	hypothetical protein
+cg3206	putative phosphoglycerate mutase
+cg3207	prephenate dehydratase
+cg3208	putative amidase
+cg3209	hypothetical protein
+cg3210	transcriptional regulator
+cg3211	hypothetical protein
+cg3212	hypothetical protein
+cg3213	hypothetical protein
+cg3214	hypothetical protein
+cg3215	glycerophosphoryl diester phosphodiesterase
+cg3216	putative gluconate permease
+cg3218	pyruvate kinase
+cg3219	L-lactate dehydrogenase
+cg3220	hypothetical protein
+cg3221	HAD superfamily hydrolase
+cg3223	flavoprotein
+cg3224	transcriptional regulator
+cg3225	hypothetical protein
+cg3226	putative integral membrane transport protein
+cg3227	L-lactate dehydrogenase
+cg3228	hypothetical protein
+cg3230	hypothetical protein
+cg3231	hypothetical protein
+cg3232	hypothetical protein
+cg3233	hypothetical protein
+cg3234	putative metal-dependent hydrolase/carboxypeptidase
+cg3235	hypothetical protein
+cg3236	methionine sulfoxide reductase A
+cg3237	superoxide dismutase
+cg3239	hypothetical protein
+cg3240	putative transport protein
+cg3242	hypothetical protein
+cg3243	hypothetical protein
+cg3244	hypothetical protein
+cg3245	putative membrane transport protein
+cg3246	transcriptional regulator
+cg3247	two-component system, response regulator
+cg3248	two-component system, sensory transduction histidine kinase
+cg3249	hypothetical protein
+cg3250	hypothetical protein
+cg3251	hypothetical protein
+cg3252	putative inner membrane protein translocase component YidC
+cg3253	transcriptional regulator
+cg3254	hypothetical protein
+cg3255	hypothetical protein
+cg3256	alkanal monooxygenase-like protein
+cg3258	23S RNA-specific pseudouridylate synthase
+cg3260	hypothetical protein
+cg3261	transcriptional regulator
+cg3263	hypothetical protein
+cg3264	hypothetical protein
+cg3265	hypothetical protein
+0	transposase
+cg3267	hypothetical protein
+cg3269	hypothetical protein
+cg3271	putative methyltransferase
+cg3272	uncharacterized membrane protein
+cg3274	site-specific recombinase/resolvase
+cg3275	ferredoxin 3
+cg3277	hypothetical protein
+cg3280	hypothetical protein
+cg3281	cation transport ATPase
+cg3282	hypothetical protein
+#N/A	hypothetical protein
+cg3284	two-component system, sensory transduction histidine kinase
+cg3285	two-component system, response regulator
+cg3286	hypothetical protein
+cg3287	putative multicopper oxidase
+cg3289	hypothetical protein
+cg3290	putative NADPH:quinone reductase
+cg3291	hypothetical protein
+cg3292	copper chaperone
+cg3293	hypothetical protein
+cg3295	cation transport ATPase
+cg3296	hypothetical protein
+cg3297	hypothetical protein
+cg3299	thioredoxin
+cg3300	copper chaperone
+cg3301	putative transmembrane transport protein
+cg3303	hypothetical protein
+cg3304	replicative DNA helicase
+cg3306	50S ribosomal protein L9
+cg3307	single-strand DNA-binding protein
+cg3308	30S ribosomal protein S6
+#N/A	hypothetical protein
+cg3312	hypothetical protein
+cg3313	penicillin-binding protein
+cg3314	hypothetical protein
+cg3315	transcriptional regulator
+cg3316	hypothetical protein
+cg3317	hypothetical protein
+cg3318	hypothetical protein
+cg3319	hypothetical protein
+cg3320	ABC-type transporter, permease component
+cg3321	ABC-type transporter, ATPase component
+cg3322	efflux system protein
+cg3323	myo-inositol-1-phosphate synthase
+cg3324	hypothetical protein
+cg3325	hypothetical protein
+cg3327	starvation-inducible DNA-binding protein
+cg3328	formamidopyrimidine-DNA glycosylase
+cg3329	hypothetical protein
+cg3330	hypothetical protein
+cg3331	methylated DNA-protein cysteine methyltransferase
+cg3332	hypothetical protein
+cg3334	sugar transporter family protein
+cg3335	malic enzyme
+cg3336	sugar kinase
+cg3337	hypothetical protein
+cg3338	hypothetical protein
+cg3339	putative mercuric reductase
+cg3340	D-amino acid dehydrogenase subunit
+cg3341	hypothetical protein
+#N/A	hypothetical protein
+cg3343	hypothetical protein
+cg3344	hypothetical protein
+cg3345	hypothetical protein
+cg3346	leucyl-tRNA synthetase
+cg3347	hypothetical protein
+cg3348	virulence associated protein
+cg3349	mycothiol-dependent maleylpyruvate isomerase
+cg3350	2-hydroxyhepta-2,4-diene-1,7-dioatesomerase
+cg3351	gentisate 1,2-dioxygenase
+cg3352	hypothetical protein
+cg3353	putative benzoate transporter
+cg3354	putative hydroxylase/monooxygenase
+cg3356	putative transmembrane symporter
+cg3357	hypothetical protein
+#N/A	hypothetical protein
+cg3359	anthranilate synthase component I
+cg3360	anthranilate synthase component II
+cg3361	anthranilate phosphoribosyltransferase
+cg3362	bifunctional indole-3-glycerol phosphate synthase/phosphoribosylanthranilate isomerase
+cg3363	tryptophan synthase subunit beta
+cg3364	tryptophan synthase subunit alpha
+cg3365	ascorbate-specific PTS system enzyme IIC
+cg3366	hypothetical protein
+cg3367	ABC-type transporter, ATPase component
+cg3368	ABC-type transporter, permease component
+cg3369	hypothetical protein
+cg3370	NADH:flavin oxidoreductase
+cg3371	hypothetical protein
+cg3372	hypothetical protein
+cg3373	transcriptional regulator
+cg3374	NADH:flavin oxidoreductase
+cg3375	hypothetical protein
+cg3376	hypothetical protein
+cg3377	hypothetical protein
+cg3378	hypothetical protein
+cg3380	short chain dehydrogenase
+cg3381	hypothetical protein
+cg3382	dipeptide/tripeptide permease
+cg3384	transcriptional regulator
+cg3385	putative hydroxyquinol/catechol 1,2-dioxygenase
+cg3386	maleylacetate reductase
+cg3387	putative sugar permease
+cg3388	transcriptional regulator
+cg3389	putative oxidoreductase
+cg3390	hypothetical protein
+cg3391	myo-inositol dehydrogenase
+cg3392	putative dehydrogenase
+cg3393	hypothetical protein
+cg3394	hypothetical protein
+cg3395	putative proline-betaine transporter
+cg3396	hypothetical protein
+cg3397	hypothetical protein
+cg3398	putative helicase
+cg3399	hypothetical protein
+cg3400	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase
+cg3401	hypothetical protein
+cg3402	putative metal associated protein
+cg3403	putative membrane transport protein
+cg3404	ABC-type transport systems, periplasmic component
+cg3405	putative oxidoreductase/dehydrogenase
+cg3407	hypothetical protein
+cg3409	phosphomethylpyrimidine kinase
+cg3410	hypothetical protein
+cg3411	putative copper chaperone
+cg3412	hypothetical protein
+cg3413	branched-chain amino acid permease
+cg3414	hypothetical protein
+cg3415	putative polynucleotide polymerase
+cg3417	hypothetical protein
+cg3418	hypothetical protein
+cg3419	putative virulence factor
+cg3420	putative RNA polymerase sigma factor
+cg3422	thioredoxin reductase
+cg3423	thioredoxin
+cg3424	N-acetylmuramoyl-L-alanine amidase
+cg3425	hypothetical protein
+cg3426	putative cell division protein ParB
+cg3427	putative cell division protein ParA
+cg3428	glucose-inhibited division protein B
+cg3429	putative inner membrane protein translocase component YidC
+cg3431	ribonuclease P
+cg3432	50S ribosomal protein L34
